@@ -1,0 +1,800 @@
+================================================================================
+                    L1 MASTER SCHEDULE
+         2x660 MW SUPERCRITICAL THERMAL POWER PLANT
+       ERECTION & COMMISSIONING SCHEDULE - EXECUTIVE SUMMARY
+================================================================================
+
+PROJECT DETAILS:
+================================================================================
+Project Type:           Greenfield Supercritical Coal Thermal Power Plant
+Capacity:              2 Units × 660 MW = 1,320 MW (Total)
+Location:              Nagpur, Maharashtra, India
+Main Contractor:       Bharat Heavy Electricals Limited (BHEL)
+Technology:            Supercritical Pulverized Coal
+Environmental Control: ESP, FGD (Flue Gas Desulfurization), SCR
+Total Project Duration: 44 Months (3.67 Years from Project Start)
+Unit-1 COD Target:     Month 37 (Approximately 37 months from start)
+Unit-2 COD Target:     Month 41 (Approximately 41 months from start)
+
+TECHNICAL SPECIFICATIONS:
+================================================================================
+Steam Parameters:
+├─ Main Steam Pressure: 255 atm(a) / 25.8 MPa
+├─ Main Steam Temperature: 568°C
+└─ Reheat Steam Temperature: 596°C
+
+Turbine Specifications:
+├─ Type: 3000 RPM, Tandem Compound
+├─ Configuration: Single Reheat, Regenerative, Condensing
+├─ Design: 1 HP (High Pressure) + 1 IP (Intermediate Pressure) + 2 LP (Low Pressure) Cylinders
+└─ Total Capacity: 660 MW per unit (2 units = 1,320 MW)
+
+Generator Specifications:
+├─ Type: 780 MVA per unit
+├─ Total: 2 × 780 MVA = 1,560 MVA
+└─ Voltage: 13.8 kV (generator terminal)
+
+Coal Consumption:
+├─ Rate: 7.18 MMTPA (Million Metric Tonnes Per Annum)
+├─ At 85% Plant Load Factor (PLF)
+└─ Source: Linked coal supply
+
+Water Source:
+├─ Treated Sewage Water: 25.2 MM³ per annum (from Nagpur city)
+├─ Pench Dam Water: 10.8 MM³ per annum
+└─ Total: 36 MM³ per annum
+
+Emission Control:
+├─ ESP (Electrostatic Precipitator): Fly ash collection
+├─ FGD (Flue Gas Desulfurization): SO₂ removal
+└─ SCR (Selective Catalytic Reduction): NOₓ removal
+
+================================================================================
+PHASE-WISE SCHEDULE BREAKDOWN
+================================================================================
+
+PHASE 1: PROJECT INITIATION & MOBILIZATION
+───────────────────────────────────────────
+Duration: 2 Months
+Timeline: Month 0 → Month 2
+Status: Entry Gate
+Key Activities:
+├─ Project Kickoff Meeting & Team Mobilization
+├─ Site Setup & Infrastructure (temporary office, access roads)
+├─ Quality Standards & QA/QC Procedures Establishment
+├─ Safety & Environmental Framework
+└─ Baseline Schedule & Budget Approval
+Deliverables:
+├─ Project Management Plan
+├─ Quality Assurance Plan
+├─ Safety Plan
+└─ Baseline Schedule Approved
+Resources: 12 people
+Budget: ₹5 Crores
+Critical Success Factors:
+├─ Timely team availability
+├─ Regulatory clearance obtained
+└─ Site accessibility confirmed
+
+PHASE 2: DETAILED DESIGN ENGINEERING
+──────────────────────────────────────
+Duration: 18 Months
+Timeline: Month 0 → Month 18
+Status: Parallel with Procurement
+Key Activities:
+├─ Boiler Design Engineering (16 months)
+│  ├─ Furnace design
+│  ├─ Pressure parts design
+│  ├─ Superheater & Reheater design
+│  ├─ Economizer & Air Heater design
+│  └─ Auxiliary systems design
+├─ Turbine Design Engineering (16 months)
+│  ├─ High Pressure (HP) turbine design
+│  ├─ Intermediate Pressure (IP) turbine design
+│  ├─ Low Pressure (LP) turbine design
+│  └─ Bearing & sealing systems design
+├─ Balance of Plant Design (14 months)
+│  ├─ Condenser design
+│  ├─ Feed water system design
+│  ├─ Coal & ash handling design
+│  ├─ Water treatment plant design
+│  └─ FGD, SCR, ESP design
+├─ Electrical Systems Design (14 months)
+│  ├─ Generator & transformer design
+│  ├─ Switchyard design (400 kV & 220 kV)
+│  ├─ Control & Protection systems
+│  └─ Instrumentation design
+└─ Design Completion & Client Approval (2 months)
+   ├─ Final design review
+   ├─ Regulatory compliance check
+   ├─ Client approval
+   └─ Release for manufacturing
+Deliverables:
+├─ Detailed Engineering Drawings (1000+ sheets)
+├─ Calculation Reports (stress, thermal, hydraulic)
+├─ Material Specifications
+├─ Bill of Materials (BoM)
+├─ Equipment Datasheets
+└─ Erection & Assembly Manuals
+Resources: 25-35 Design Engineers
+Budget: ₹45 Crores
+Critical Path Activities:
+├─ Design standards review → Boiler design → Pressure parts calculations
+├─ Design completion is prerequisite for procurement
+└─ Design approval is Gate 1 (Month 18)
+
+PHASE 3: EQUIPMENT PROCUREMENT
+──────────────────────────────
+Duration: 24 Months (Parallel with Design & Civil Works)
+Timeline: Month 0 → Month 24
+Status: Long-lead Items Critical
+Key Activities:
+├─ RFQ Preparation & Issue (Week 1-2)
+├─ Vendor Evaluation & Selection (Month 0-1)
+├─ PO (Purchase Order) Issuance (Month 1-2)
+├─ Boiler Procurement (22 months)
+│  ├─ Design finalization by BHEL
+│  ├─ Material procurement (tubes, headers, etc.)
+│  ├─ Component manufacturing (furnace, drums, etc.)
+│  ├─ Assembly & testing
+│  ├─ Factory Acceptance Test (FAT)
+│  └─ Delivery to site (Month 22-23)
+├─ Turbine-Generator Procurement (20 months)
+│  ├─ Rotor manufacturing
+│  ├─ Casing & generator stator manufacturing
+│  ├─ Assembly & FAT
+│  └─ Delivery to site (Month 21-22)
+├─ Transformer & Switchyard Equipment (14 months)
+│  ├─ Main transformer (500 MVA, 2 units)
+│  ├─ Circuit breakers, disconnectors
+│  ├─ Current & voltage transformers
+│  └─ Delivery by Month 22-23
+├─ Other Major Equipment (20 months)
+│  ├─ Condenser
+│  ├─ Feed water pump & circulating water pump
+│  ├─ FGD, SCR, ESP equipment
+│  └─ Cooling tower (if applicable)
+└─ Equipment Delivery & Site Receipt (Month 22-24)
+Deliverables:
+├─ All major equipment at site
+├─ Factory Acceptance Test (FAT) certificates
+├─ Performance guarantee certificates
+├─ Spare parts packages
+└─ Operation & maintenance manuals
+Resources: 15-20 Procurement Personnel
+Budget: ₹850 Crores (69% of total budget)
+Critical Path Activities:
+├─ Equipment order placement is CRITICAL by Month 2
+├─ Boiler delivery drives erection schedule
+├─ Turbine delivery enables synchronization
+├─ Equipment arrival at site by Month 24 is mandatory
+
+PHASE 4: CIVIL WORKS & INFRASTRUCTURE
+──────────────────────────────────────
+Duration: 22 Months
+Timeline: Month 2 → Month 24
+Status: Infrastructure Development
+Key Activities:
+├─ Foundation & Structural Works (18 months)
+│  ├─ Boiler house foundation (Months 2-6)
+│  ├─ Turbine hall foundation (Months 2-6)
+│  ├─ Boiler house structure erection (Months 6-14)
+│  ├─ Turbine hall structure erection (Months 6-14)
+│  ├─ Auxiliary buildings (Months 8-20)
+│  └─ Final civil works completion (Month 20)
+├─ Water Systems & Infrastructure (12 months)
+│  ├─ Water intake from Pench dam
+│  ├─ Water treatment plant
+│  ├─ Cooling water system (25.2 MM³ sewage + 10.8 MM³ dam water)
+│  ├─ Circulating water pump house
+│  ├─ Condenser pit & drain sump
+│  └─ Water system testing (Month 12)
+├─ Coal Handling & Ash Disposal (18 months)
+│  ├─ Coal stockyard (capacity: 5,000 tonnes)
+│  ├─ Coal handling plant (conveyor, crusher)
+│  ├─ Coal mill installation
+│  ├─ Bottom ash handling system
+│  ├─ Fly ash handling system
+│  ├─ Ash pond (capacity: 50,000 m³)
+│  └─ Ash system testing (Month 12)
+├─ Electrical Infrastructure (14 months)
+│  ├─ Substation building construction
+│  ├─ Switchyard construction (400 kV & 220 kV)
+│  ├─ Control room building
+│  ├─ Cable trenches & conduits
+│  ├─ Grounding system installation
+│  └─ Electrical infrastructure completion (Month 14)
+└─ Temporary Facilities & Support
+   ├─ Site office
+   ├─ Worker accommodation
+   ├─ Welfare facilities
+   └─ Safety infrastructure
+Deliverables:
+├─ Complete boiler house building
+├─ Complete turbine hall building
+├─ Water treatment & storage systems
+├─ Coal handling plant operational
+├─ Ash disposal system operational
+├─ Electrical infrastructure ready
+├─ All civil works inspection certificates
+└─ Civil works completion report
+Resources: 35-50 people (including contractor)
+Budget: ₹125 Crores
+Critical Path Activities:
+├─ Foundation completion → Building erection
+├─ Building completion → Equipment installation
+├─ Civil works completion (Month 24) enables erection phase
+└─ Water system & coal system must be operational before commissioning
+
+PHASE 5: BOILER ERECTION - UNIT 1
+─────────────────────────────────
+Duration: 14 Months
+Timeline: Month 10 → Month 24
+Status: Major Equipment Assembly
+Key Activities:
+├─ Boiler Foundation Preparation (Week 1-2)
+├─ Boiler Arrival & Unloading (Week 2-3)
+├─ Furnace Assembly (Weeks 3-7)
+├─ Furnace to Drum Connection (Weeks 8-9)
+├─ Pressure Parts Installation (Weeks 10-14)
+│  ├─ Superheater & Reheater installation
+│  ├─ Economizer installation
+│  └─ Air Heater installation
+├─ Burner Installation (8 burners, arranged in 2 rows of 4)
+├─ FD & ID Fan Connection
+├─ Casing & Insulation Installation
+├─ Boiler Auxiliaries & Control Equipment
+├─ Instrumentation Installation
+├─ Hydrostatic Pressure Test (26 MPa)
+├─ NDT (Non-Destructive Testing)
+└─ Factory Acceptance Test (FAT)
+Deliverables:
+├─ Boiler fully erected
+├─ Boiler hydrostatic test passed
+├─ FAT certificate issued
+├─ Ready for commissioning
+Resources: 40-60 people
+Budget: ₹75 Crores
+Critical Path Activities:
+├─ Equipment erection is sequential after civil works
+├─ Hydrostatic test mandatory before commissioning
+└─ FAT certificate prerequisite for commissioning
+
+PHASE 6: BOILER ERECTION - UNIT 2
+─────────────────────────────────
+Duration: 14 Months
+Timeline: Month 14 → Month 28
+Status: Parallel with Unit-1 commissioning start
+Key Activities:
+(Identical to Unit-1 but offset by 4 months)
+├─ Foundation preparation
+├─ Boiler arrival & positioning
+├─ Furnace assembly
+├─ Pressure parts installation
+├─ Burner & auxiliary installation
+├─ Testing & FAT
+Deliverables:
+├─ Boiler Unit-2 fully erected
+├─ FAT certificate issued
+└─ Ready for commissioning (Month 28)
+Resources: 40-60 people
+Budget: ₹75 Crores
+Note: 4-month stagger allows learning from Unit-1 commissioning
+
+PHASE 7: TURBINE-GENERATOR ERECTION - UNIT 1
+──────────────────────────────────────────────
+Duration: 10 Months
+Timeline: Month 18 → Month 28
+Status: Parallel with boiler erection
+Key Activities:
+├─ Turbine Foundation Preparation
+├─ Turbine-Generator Arrival & Unloading
+├─ Rotor Installation on Bearing Pedestals
+├─ Journal Bearing Installation & Gap Setting
+├─ Thrust Bearing Installation
+├─ Generator Stator Installation
+├─ Generator Rotor Installation
+├─ Coupling Assembly & Alignment (0.1mm tolerance)
+├─ Bearing & Cooling System Connections
+├─ Instrumentation Installation (vibration, temperature sensors)
+├─ Sealing System Installation
+├─ Slow Roll Test (Manual rotor rotation)
+├─ Generator Insulation Test (Megohm testing)
+└─ Factory Acceptance Test (FAT)
+Deliverables:
+├─ Turbine-Generator fully erected & aligned
+├─ FAT certificate issued
+├─ Slow roll test passed
+├─ Ready for steam-driven rotation
+Resources: 30-40 people
+Budget: ₹95 Crores
+Critical Path Activities:
+├─ Precise alignment critical for long-term reliability
+├─ FAT mandatory before commissioning
+└─ All bearing tests must pass
+
+PHASE 8: TURBINE-GENERATOR ERECTION - UNIT 2
+──────────────────────────────────────────────
+Duration: 10 Months
+Timeline: Month 22 → Month 32
+Status: Parallel with Unit-1 commissioning start
+Key Activities:
+(Identical to Unit-1 but offset by 4 months)
+Deliverables:
+├─ Turbine-Generator Unit-2 erected
+├─ FAT certificate
+└─ Ready for commissioning (Month 32)
+Resources: 30-40 people
+Budget: ₹95 Crores
+
+PHASE 9: ELECTRICAL & CONTROL SYSTEMS INSTALLATION
+──────────────────────────────────────────────────
+Duration: 14 Months
+Timeline: Month 18 → Month 32
+Status: Parallel with erection phases
+Key Activities:
+├─ Switchyard Installation (6 months: Month 18-24)
+│  ├─ Circuit breaker installation (400 kV & 220 kV)
+│  ├─ Disconnector & earthing switch
+│  ├─ Current & voltage transformers
+│  ├─ Main transformer connection
+│  ├─ HV power cables installation
+│  └─ Protection & control relay installation
+├─ Control & DCS Installation (6 months: Month 20-26)
+│  ├─ DCS (Distributed Control System) hardware
+│  ├─ Software configuration & loading
+│  ├─ Local control panels
+│  ├─ SCADA system setup
+│  └─ Human-Machine Interface (HMI) configuration
+├─ Field Instrumentation (6 months: Month 21-27)
+│  ├─ Temperature sensors (thermowells, RTDs)
+│  ├─ Pressure transducers
+│  ├─ Flow measurement instruments
+│  ├─ Level gauges & transmitters
+│  ├─ Vibration & bearing temperature sensors
+│  ├─ Combustion & flame detection
+│  └─ Analytical instruments (O₂, pH, conductivity)
+└─ Electrical Power Distribution (8 months: Month 18-26)
+   ├─ HV cable installation
+   ├─ MV (6.6 kV) switchgear
+   ├─ LV (0.415 kV) distribution
+   ├─ UPS system
+   ├─ Emergency power system
+   └─ Area lighting & auxiliary power
+Deliverables:
+├─ Complete switchyard operational
+├─ DCS & control systems tested
+├─ All instrumentation calibrated
+├─ Electrical systems ready for commissioning
+Resources: 35-40 people
+Budget: ₹80 Crores
+Critical Path Activities:
+├─ Control system logic must be verified before commissioning
+└─ Instrument calibration mandatory for operational readiness
+
+PHASE 10: COMMISSIONING - UNIT 1
+────────────────────────────────
+Duration: 6 Months
+Timeline: Month 28 → Month 34
+Status: Transition from construction to operation
+Key Activities:
+├─ Cold Run Test (Week 1)
+│  └─ All pumps operated without fluid
+├─ System Flushing & Cleaning (Week 1-2)
+│  └─ Remove construction debris from all systems
+├─ Heat Run Test (Week 2-3)
+│  └─ Auxiliary steam or dummy load used to warm equipment
+├─ Boiler Light-up & Steam Generation (Weeks 3-5)
+│  ├─ Oil burner operation (initial)
+│  ├─ Coal burner initiation
+│  └─ Furnace temperature control
+├─ Turbine Low-Speed Operation (Weeks 5-7)
+│  ├─ Turbine acceleration to 100-200 RPM
+│  ├─ Bearing temperature monitoring
+│  └─ Leakage check
+├─ Turbine Acceleration to Synchronous Speed (Weeks 7-8)
+│  ├─ Gradual speed increase to 3000 RPM
+│  ├─ Vibration monitoring
+│  └─ Bearing condition verification
+├─ Generator Synchronization with Grid (Weeks 8-9)
+│  ├─ Phase, frequency, voltage matching
+│  ├─ Circuit breaker closure on grid
+│  └─ Protective relay check
+└─ Auxiliary Systems Commissioning (Weeks 5-10)
+   ├─ Cooling water system
+   ├─ Feed water heating
+   ├─ Coal handling system
+   └─ Environmental control systems (FGD, SCR, ESP)
+Deliverables:
+├─ Unit-1 synchronized with grid
+├─ All systems functionally verified
+├─ Ready for performance testing
+Resources: 20-25 Commissioning Engineers
+Budget: ₹25 Crores
+Critical Milestones:
+├─ Boiler light-up: Month 28.5
+├─ Turbine synchronization: Month 33
+└─ Commissioning completion: Month 34
+
+PHASE 11: COMMISSIONING - UNIT 2
+────────────────────────────────
+Duration: 6 Months
+Timeline: Month 32 → Month 38
+Status: Parallel with Unit-1 performance testing
+Key Activities:
+(Similar to Unit-1 but offset by 4 months)
+└─ Sequential after Unit-1 to avoid steam production bottleneck
+Deliverables:
+├─ Unit-2 synchronized with grid
+├─ Ready for performance testing
+Resources: 20-25 Commissioning Engineers
+Budget: ₹25 Crores
+Deliverables:
+├─ Unit-2 synchronized with grid
+├─ All systems verified
+└─ Ready for performance testing
+
+PHASE 12: PERFORMANCE TESTING & COD - UNIT 1
+─────────────────────────────────────────────
+Duration: 3 Months
+Timeline: Month 34 → Month 37
+Status: Guarantee Achievement Phase
+Key Activities:
+├─ Pre-test System Checks (Week 1)
+├─ Loading to 50% MCR (330 MW) - Week 2-3
+│  ├─ Gradual load increase
+│  ├─ System parameter monitoring
+│  ├─ Preliminary efficiency calculation
+│  └─ Hold at 50% for stabilization
+├─ Loading to 75% MCR (495 MW) - Week 4-5
+│  ├─ Continued load ramp
+│  ├─ Extended parameter collection
+│  └─ Efficiency measurement (preliminary)
+├─ Loading to 100% MCR (660 MW) - Week 6-8
+│  ├─ Final load ramp to design point
+│  ├─ All performance parameters at specification
+│  ├─ Efficiency guarantee verification
+│  ├─ Environmental emissions verification
+│  └─ Extended hold at full load
+├─ Emission Testing
+│  ├─ SO₂ concentration measurement
+│  ├─ NOₓ concentration measurement
+│  ├─ Particulate matter (dust) measurement
+│  └─ Compliance with emission standards
+├─ Performance Guarantee Test
+│  ├─ Heat rate calculation
+│  ├─ Net power output verification
+│  ├─ Efficiency at guaranteed level
+│  └─ Performance guarantee certificate issuance
+└─ Load Cycling Test (Optional)
+   ├─ Ramp down to 50% MCR
+   ├─ Ramp back to 100% MCR
+   └─ System reliability verification
+Deliverables:
+├─ Performance guarantee achieved
+├─ Emission standards compliance verified
+├─ Heat rate: <2,160 kcal/kWh
+├─ Efficiency: >90% (guaranteed)
+├─ FAT/Commissioning report issued
+└─ Commercial Operation Date (COD) declared
+Resources: 15-20 Test & Commissioning Engineers
+Budget: ₹15 Crores
+Critical Milestone:
+└─ Unit-1 COD: MONTH 37 ✅ (PRIMARY PROJECT TARGET)
+
+PHASE 13: PERFORMANCE TESTING & COD - UNIT 2
+─────────────────────────────────────────────
+Duration: 3 Months
+Timeline: Month 38 → Month 41
+Status: Final project completion phase
+Key Activities:
+(Identical to Unit-1 but offset by 4 months)
+Deliverables:
+├─ Performance guarantee achieved
+├─ COD declared
+├─ All project milestones met
+└─ Project handover to Operations team
+Resources: 15-20 Test & Commissioning Engineers
+Budget: ₹15 Crores
+Critical Milestone:
+└─ Unit-2 COD: MONTH 41 ✅ (PROJECT COMPLETION)
+
+================================================================================
+KEY MILESTONES SUMMARY
+================================================================================
+
+Month 0:    🟢 Project Kickoff & Mobilization Start
+Month 2:    🟢 Initiation Phase Complete
+Month 18:   🟢 Design Engineering Complete (GATE 1)
+Month 22:   🟢 Equipment Orders Placed (Long-lead items)
+Month 24:   🟢 Equipment Delivery Complete (GATE 2)
+Month 24:   🟢 Civil Works Completion
+Month 28:   🟢 Unit-1 Boiler & Turbine Erection Complete
+Month 32:   🟢 Unit-2 Boiler & Turbine Erection Complete
+Month 34:   🟢 Unit-1 Grid Synchronization
+Month 37:   🟢 UNIT-1 COMMERCIAL OPERATION DATE (COD) ✅ PRIMARY TARGET
+Month 38:   🟢 Unit-2 Grid Synchronization
+Month 41:   🟢 UNIT-2 COMMERCIAL OPERATION DATE (COD) ✅ PROJECT COMPLETE
+
+================================================================================
+CRITICAL PATH ANALYSIS
+================================================================================
+
+The critical path (zero float activities) that determines project duration:
+
+1. PROJECT INITIATION (2M: 0-2)
+   ↓
+2. DESIGN ENGINEERING (18M: 0-18)
+   ├─ Prerequisite for procurement specs
+   ├─ Design approval gate at Month 18
+   └─ 0 days float
+
+3. EQUIPMENT PROCUREMENT (24M: 0-24)
+   ├─ Long-lead items: Boiler (20-24M), Turbine (18-22M)
+   ├─ Factory Acceptance Testing
+   ├─ Equipment delivery to site by Month 24
+   └─ 0 days float (boiler lead time critical)
+
+4. CIVIL WORKS (22M: 2-24)
+   ├─ Foundation & structural work prerequisite for erection
+   ├─ Building completion required before equipment placement
+   └─ 0 days float
+
+5. BOILER ERECTION - UNIT 1 (14M: 10-24)
+   ├─ Furnace assembly → Drum connection → Pressure parts → Testing
+   ├─ FAT mandatory before commissioning
+   └─ 0 days float
+
+6. TURBINE ERECTION - UNIT 1 (10M: 18-28)
+   ├─ Rotor installation → Generator assembly → Coupling alignment
+   ├─ FAT mandatory
+   └─ 0 days float
+
+7. COMMISSIONING - UNIT 1 (6M: 28-34)
+   ├─ Cold run → Heat run → Boiler light-up → Synchronization
+   ├─ Sequential phases, cannot be parallelized
+   └─ 0 days float
+
+8. PERFORMANCE TESTING & COD - UNIT 1 (3M: 34-37)
+   ├─ Loading to 50% → 75% → 100% MCR
+   ├─ Guarantee achievement & COD declaration
+   └─ 0 days float (defines Unit-1 COD at Month 37)
+
+**CRITICAL PATH DURATION: 44 Months**
+(From Project Start to Unit-2 COD)
+
+Any delay in design, procurement, civil works, or erection phases directly
+impacts the Unit-1 COD schedule at Month 37 and Unit-2 COD at Month 41.
+
+================================================================================
+SCHEDULE CONTINGENCY & BUFFERS
+================================================================================
+
+BASE SCHEDULE (Optimistic):
+├─ Unit-1 COD: Month 37
+└─ Unit-2 COD: Month 41
+
+WITH 2-MONTH CONTINGENCY (Realistic):
+├─ Unit-1 COD: Month 39 (±1 month variance)
+└─ Unit-2 COD: Month 43 (±1 month variance)
+
+CONTINGENCY RISKS:
+├─ Design approval delays (2-4 weeks likely)
+├─ Equipment manufacturing delays (2-6 weeks possible)
+├─ Equipment transportation delays (1-2 weeks)
+├─ Site weather impacts, especially monsoon (June-September)
+├─ Erection quality issues requiring rework (1-2 weeks)
+├─ Commissioning learning curve (1-2 weeks)
+└─ Regulatory inspection delays (1 week)
+
+CONTINGENCY ALLOCATION:
+├─ Design & Procurement: 3 weeks
+├─ Civil Works: 2 weeks
+├─ Erection: 2 weeks
+├─ Commissioning: 1 week
+└─ Performance Testing: 2 weeks
+└─ TOTAL: 10 weeks ≈ 2.5 months
+
+RECOMMENDATION: Plan for COD at:
+├─ Unit-1: Month 39-40 (realistic planning)
+└─ Unit-2: Month 43-44 (realistic planning)
+
+================================================================================
+RESOURCE REQUIREMENTS
+================================================================================
+
+PEAK TEAM COMPOSITION:
+
+Months 0-2 (Initiation):         12 people
+Months 2-18 (Design):            25-35 design engineers
+Months 18-24 (Procurement peak): 15-20 procurement staff
+Months 12-24 (Civil works peak): 35-50 construction workers
+Months 10-28 (Boiler erection):  40-60 people
+Months 18-32 (Turbine erection): 30-40 people
+Months 18-26 (Electrical):       35-40 people
+Months 28-41 (Commissioning):    20-25 commissioning engineers
+
+PEAK RESOURCE REQUIREMENT:
+├─ Months 12-20: 60+ people (combined civil + design + equipment management)
+├─ Months 20-28: 50+ people (civil completion + erection start)
+└─ Months 28-34: 40+ people (Unit-1 commissioning + Unit-2 erection)
+
+================================================================================
+BUDGET ALLOCATION
+================================================================================
+
+Total Project Budget: ₹1,235 Crores
+
+Phase-wise Breakdown:
+├─ Phase 1 (Initiation):           ₹5 Cr    (0.4%)
+├─ Phase 2 (Design):               ₹45 Cr   (3.6%)
+├─ Phase 3 (Procurement):          ₹850 Cr  (68.8%) ← Major cost item
+├─ Phase 4 (Civil Works):          ₹125 Cr  (10.1%)
+├─ Phase 5 (Boiler Unit-1):        ₹75 Cr   (6.1%)
+├─ Phase 6 (Boiler Unit-2):        ₹75 Cr   (6.1%)
+├─ Phase 7 (Turbine Unit-1):       ₹95 Cr   (7.7%)
+├─ Phase 8 (Turbine Unit-2):       ₹95 Cr   (7.7%)
+├─ Phase 9 (Electrical):           ₹80 Cr   (6.5%)
+├─ Phase 10 (Commissioning U1):    ₹25 Cr   (2.0%)
+├─ Phase 11 (Commissioning U2):    ₹25 Cr   (2.0%)
+├─ Phase 12 (Performance Test U1):  ₹15 Cr   (1.2%)
+├─ Phase 13 (Performance Test U2):  ₹15 Cr   (1.2%)
+└─ Contingency (10%):              ₹123 Cr  (10.0%)
+
+KEY COST DRIVERS:
+├─ Equipment (Boiler, Turbine, Generator): ₹850 Cr (69%)
+├─ Civil Infrastructure: ₹125 Cr (10%)
+├─ Erection & Commissioning: ₹180 Cr (15%)
+└─ Professional Fees & Contingency: ₹80 Cr (6%)
+
+COST CONTROL MEASURES:
+├─ Monthly budget tracking
+├─ Phase gate approvals
+├─ Contractor performance-based payments
+├─ Value engineering opportunities
+└─ Change management process
+
+================================================================================
+ASSUMPTIONS & DEPENDENCIES
+================================================================================
+
+CRITICAL ASSUMPTIONS:
+1. All regulatory approvals obtained by Month 1
+   ├─ Environmental Clearance (EC)
+   ├─ Land use permission
+   ├─ Grid connection approval
+   └─ Water withdrawal permissions
+
+2. Design engineering commences immediately (Month 0)
+
+3. BHEL's manufacturing capacity is available (no queue delays)
+
+4. Adequate skilled workforce available in Nagpur region
+
+5. Coal linkage finalized and supply guaranteed
+
+6. No major scope changes or technology modifications after Month 2
+
+7. Weather impact mitigated by monsoon planning (June-Sept)
+
+8. Supply chain: No major disruptions in critical materials
+
+9. Financing: Funds released as per payment schedule
+
+10. Site Access: Roads, utilities available by Month 2
+
+11. Contractor Performance: BHEL meets contractual obligations
+
+12. No major force majeure events
+
+KEY DEPENDENCIES:
+├─ Design completion → Procurement specs finalized
+├─ Equipment orders → Long-lead item procurement starts
+├─ Civil works completion → Equipment erection can begin
+├─ Unit-1 erection complete → Unit-1 commissioning
+├─ Unit-1 commissioning → Unit-2 commissioning (resource sharing)
+├─ Grid connectivity approval → Unit synchronization
+├─ Coal availability → Boiler light-up & operation
+└─ Regulatory inspections → Commercial operation approval
+
+================================================================================
+SUCCESS METRICS & KPIs
+================================================================================
+
+SCHEDULE PERFORMANCE:
+✓ Schedule Performance Index (SPI): Target ≥ 0.95
+✓ Milestone achievement rate: Target 100%
+✓ Critical path float: Zero (by design)
+✓ Rework cycles: <1 per major phase
+✓ Approval cycle time: <2 weeks
+
+COST PERFORMANCE:
+✓ Cost Performance Index (CPI): Target ≥ 0.95
+✓ Budget variance: Target <5%
+✓ Phase gate cost control: <±10% per phase
+✓ Contingency reserve: Maintained >5% until Phase 11
+✓ Cost trending: Monitored monthly
+
+QUALITY METRICS:
+✓ Defect rate: <1 per 1,000 items inspected
+✓ FAT success rate: 100% first pass
+✓ Rework cost: <2% of phase budget
+✓ Non-conformance: <1% of deliverables
+✓ Inspection hold points: 100% cleared on schedule
+
+RISK MANAGEMENT:
+✓ Risks identified: >90% of known risks
+✓ Mitigation plans: 100% for high-risk items
+✓ Risk review frequency: Monthly
+✓ Schedule reserve adequacy: Maintained per risk profile
+✓ Contingency plan activation: Only if triggers met
+
+================================================================================
+PROJECT GOVERNANCE
+================================================================================
+
+STEERING COMMITTEE:
+├─ Owner Representative (Project Sponsor)
+├─ BHEL Project Director
+├─ Client Project Manager
+├─ Finance Director
+├─ Operations Lead
+└─ Regulatory/Environmental Lead
+   └─ Frequency: Monthly project reviews
+
+PROJECT MANAGEMENT OFFICE (PMO):
+├─ Project Manager (Full-time)
+├─ Assistant Project Manager
+├─ Schedule Manager
+├─ Quality Manager
+├─ Document Controller
+└─ Project Coordinator
+   └─ Daily reporting, Weekly dashboard updates
+
+PHASE GATES (Mandatory Approval Points):
+├─ Gate 0 (Month 0): Project Initiation Approval
+├─ Gate 1 (Month 18): Design Engineering Complete & Approved
+├─ Gate 2 (Month 24): Equipment Delivery & Civil Works Complete
+├─ Gate 3 (Month 28): Unit-1 Erection Complete & Ready for Commissioning
+├─ Gate 3 (Month 32): Unit-2 Erection Complete
+├─ Gate 4 (Month 34): Unit-1 Commissioning Complete & Synchronized
+├─ Gate 5 (Month 37): UNIT-1 COD DECLARATION ✅
+└─ Gate 6 (Month 41): UNIT-2 COD DECLARATION ✅
+
+RISK ESCALATION MATRIX:
+├─ Green (No Impact): Weekly update
+├─ Yellow (Delay <2 weeks): Bi-weekly meeting
+├─ Red (Delay >2 weeks): Immediate steering committee
+└─ Critical: Executive escalation
+
+================================================================================
+CONCLUSION
+================================================================================
+
+This L1 Master Schedule provides a comprehensive roadmap for the 2x660 MW
+Supercritical Thermal Power Plant project with clear phases, milestones,
+resource requirements, and budget allocation.
+
+KEY TAKEAWAYS:
+✓ Total Project Duration: 44 months
+✓ Unit-1 COD: Month 37 (primary target)
+✓ Unit-2 COD: Month 41 (project completion)
+✓ Critical Path: Tight with zero float
+✓ Budget: ₹1,235 Crores
+✓ Peak Resources: 60+ people
+✓ Success depends on design completion by Month 18 & equipment by Month 24
+
+NEXT STEPS:
+1. Approve L1 Schedule as project baseline
+2. Develop L2 detailed schedules for each phase
+3. Establish monthly progress monitoring
+4. Implement project dashboard for real-time tracking
+5. Establish risk management & contingency protocols
+6. Communicate schedule to all stakeholders
+
+The success of this major infrastructure project depends on adherence to
+this critical schedule and effective project management throughout all phases.
+
+================================================================================
+END OF L1 MASTER SCHEDULE
+================================================================================

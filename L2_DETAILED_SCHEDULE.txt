@@ -1,0 +1,2141 @@
+================================================================================
+                    L2 DETAILED SCHEDULE
+         2x660 MW SUPERCRITICAL THERMAL POWER PLANT - BHEL
+       ALL ACTIVITIES WITH DURATIONS, DEPENDENCIES & LOGIC
+================================================================================
+
+LEGEND:
+========
+Duration:      Days (D) or Weeks (W) or Months (M)
+Start/End:     Refers to Month.Week format (e.g., 0.1 = Month 0, Week 1)
+Dependency:    Predecessor activity that must be complete before start
+Float:         Free time in schedule (0 = Critical Path)
+
+TOTAL L2 ACTIVITIES: 195
+
+================================================================================
+PHASE 1: PROJECT INITIATION & MOBILIZATION (2 Months)
+================================================================================
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+1.1.1       2 weeks   0.1       0.2       None          0      Project Kickoff Meeting
+                                                                - Mobilize leadership team
+                                                                - Establish PMO (Project Management Office)
+                                                                - Define project objectives & KPIs
+                                                                - Stakeholder identification
+
+1.1.2       1 week    0.2       0.3       1.1.1         0      Mobilize Project Management Team
+                                                                - Hire/deploy core PM team
+                                                                - Establish office infrastructure
+                                                                - Define roles & responsibilities
+                                                                - Procurement team setup
+
+1.1.3       2 weeks   0.1       0.2       None          2      Site Reconnaissance & Survey
+                                                                - Topographical survey
+                                                                - Soil investigation
+                                                                - Access route assessment
+                                                                - Utility availability check
+
+1.1.4       1 week    0.3       0.4       1.1.2         0      Project Baseline Development
+                                                                - WBS (Work Breakdown Structure)
+                                                                - Schedule baseline
+                                                                - Cost baseline
+                                                                - Risk register initiation
+
+1.1.5       1 week    0.3       0.4       1.1.1         1      Establish Quality Standards
+                                                                - QA/QC procedures
+                                                                - Inspection protocols
+                                                                - Testing frameworks
+
+1.1.6       1 week    0.4       0.5       1.1.3         0      Site Mobilization & Setup
+                                                                - Temporary site office construction
+                                                                - Access road preparation
+                                                                - Welfare facilities setup
+                                                                - Security fence installation
+
+1.1.7       2 weeks   0.4       0.5       1.1.6         0      Establish Communication Systems
+                                                                - Network & IT infrastructure
+                                                                - MIS (Management Information System)
+                                                                - Document management system
+
+================================================================================
+PHASE 2: DETAILED DESIGN ENGINEERING (18 Months)
+================================================================================
+
+PHASE 2.A: BOILER DESIGN ENGINEERING (16 Months: Month 0-16)
+------
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+2.1.1       3 weeks   0.1       0.4       None          0      Boiler Design Kickoff
+                                                                - Design standards & codes
+                                                                - Performance specification review
+                                                                - Material selection for supercritical
+                                                                - BHEL technical interface
+
+2.1.2       4 weeks   0.4       1.2       2.1.1         0      Furnace Design Development
+                                                                - Combustion zone design
+                                                                - Furnace volume calculation
+                                                                - Waterwall tube layout
+                                                                - Coal burner positioning (8 burners)
+
+2.1.3       4 weeks   0.4       1.2       2.1.1         0      Pressure Parts Design
+                                                                - Boiler tubes specification
+                                                                - Superheater design (main + reheater)
+                                                                - Economizer design
+                                                                - Air heater design
+
+2.1.4       3 weeks   1.2       1.4       2.1.2         0      Thermal Calculations
+                                                                - Heat balance calculations
+                                                                - Thermal stresses analysis
+                                                                - Flow distribution analysis
+                                                                - Pressure drop calculations
+
+2.1.5       3 weeks   1.4       1.6       2.1.3         0      Stress Analysis & Simulation
+                                                                - FEA (Finite Element Analysis)
+                                                                - Mechanical design verification
+                                                                - Material capability assessment
+                                                                - Design safety factors review
+
+2.1.6       2 weeks   1.6       1.8       2.1.4         0      Boiler Auxiliaries Design
+                                                                - Feed water system design
+                                                                - Circulation pump specification
+                                                                - Forced draft fan design
+                                                                - Induced draft fan design
+
+2.1.7       3 weeks   1.8       2.2       2.1.6         0      Burner & Fuel System Design
+                                                                - Coal burner design (8x)
+                                                                - Coal feeder specification
+                                                                - Flame supervision system
+                                                                - Windbox design
+
+2.1.8       2 weeks   2.2       2.4       2.1.5         0      Boiler Casing & Insulation Design
+                                                                - Boiler casing design
+                                                                - Refractory selection
+                                                                - Insulation specification
+                                                                - Expansion joint design
+
+2.1.9       2 weeks   2.4       2.6       2.1.7         0      Boiler Controls & Instrumentation
+                                                                - Temperature sensors location
+                                                                - Pressure transducers
+                                                                - Water level measurement
+                                                                - Control valve specification
+
+2.1.10      3 weeks   2.6       3.0       2.1.8, 2.1.9  0      Boiler Safety Systems Design
+                                                                - Safety valve design & sizing
+                                                                - Blow-down system
+                                                                - Emergency cooling provisions
+                                                                - Protective interlock systems
+
+2.1.11      2 weeks   3.0       3.2       2.1.10        0      Boiler Piping Design
+                                                                - Main steam piping layout
+                                                                - Reheat steam piping
+                                                                - Spray cooling piping
+                                                                - Drain & vent piping
+
+2.1.12      2 weeks   3.2       3.4       2.1.11        0      Boiler Foundation & Supports Design
+                                                                - Foundation design (2 units)
+                                                                - Support structure design
+                                                                - Vibration damping provisions
+                                                                - Expansion allowance design
+
+2.1.13      3 weeks   3.4       3.8       2.1.12        0      Boiler Design Documentation
+                                                                - Detailed engineering drawings
+                                                                - Calculation reports
+                                                                - Material specifications
+                                                                - Assembly instructions
+
+2.1.14      2 weeks   3.8       4.0       2.1.13        0      Boiler Design Review & Approval
+                                                                - Internal design review
+                                                                - Client approval
+                                                                - Regulatory compliance check
+                                                                - Design release for manufacturing
+
+
+PHASE 2.B: TURBINE & AUXILIARIES DESIGN (16 Months: Month 1-17)
+------
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+2.2.1       3 weeks   1.1       1.4       None          0      Turbine Design Kickoff
+                                                                - Turbine performance specification
+                                                                - Design standards review
+                                                                - Material selection for 3000 RPM
+                                                                - BHEL technical interface
+
+2.2.2       4 weeks   1.4       2.2       2.2.1         0      High Pressure (HP) Turbine Design
+                                                                - HP rotor design
+                                                                - HP blade design (568°C steam)
+                                                                - HP casing design
+                                                                - HP bearing design
+
+2.2.3       4 weeks   1.4       2.2       2.2.1         0      Intermediate Pressure (IP) Turbine Design
+                                                                - IP rotor design
+                                                                - IP blade design (596°C reheat)
+                                                                - IP casing design
+                                                                - Cross-over piping design
+
+2.2.4       4 weeks   1.4       2.2       2.2.1         0      Low Pressure (LP) Turbine Design
+                                                                - 2x LP casing (double-flow)
+                                                                - LP blade stages
+                                                                - LP rotor (tandem compound)
+                                                                - Bearing & seal design
+
+2.2.5       3 weeks   2.2       2.4       2.2.2, 2.2.3, 0     Turbine Rotor Assembly Design
+                                                  2.2.4         - Rotor balancing plan
+                                                                - Bolt & fit-up design
+                                                                - Coupling design (HPT-IPT-LPT)
+                                                                - Thrust bearing design
+
+2.2.6       3 weeks   2.4       2.6       2.2.5         0      Turbine Thermal Analysis
+                                                                - Steam side heat transfer
+                                                                - Temperature distribution
+                                                                - Thermal stresses
+                                                                - Steam leakage paths
+
+2.2.7       2 weeks   2.6       2.8       2.2.5         0      Turbine Mechanical Analysis
+                                                                - Rotor dynamics & whirl speeds
+                                                                - Critical speeds identification
+                                                                - Vibration analysis
+                                                                - FEA of rotor & casing
+
+2.2.8       3 weeks   2.8       3.2       2.2.6, 2.2.7  0      Turbine Auxiliaries Design
+                                                                - Oil supply system design
+                                                                - Seal system design
+                                                                - Cooling water system
+                                                                - Drainage system design
+
+2.2.9       2 weeks   3.2       3.4       2.2.8         0      Turbine Controls & Protection
+                                                                - Governor system design
+                                                                - Overspeed protection
+                                                                - Temperature sensors placement
+                                                                - Vibration monitoring system
+
+2.2.10      2 weeks   3.4       3.6       2.2.9         0      Generator Design Interface
+                                                                - Turbine-Generator alignment
+                                                                - Coupling specification
+                                                                - Rotor cooling provisions
+                                                                - Generator cooling interface
+
+2.2.11      2 weeks   3.6       3.8       2.2.10        0      Piping Design for Turbine
+                                                                - Steam inlet piping
+                                                                - Extraction steam piping (FWH)
+                                                                - Exhaust piping to condenser
+                                                                - Drain piping
+
+2.2.12      3 weeks   3.8       4.2       2.2.11        0      Turbine Mechanical Installation Design
+                                                                - Foundation design
+                                                                - Support structure
+                                                                - Expansion provisions
+                                                                - Anchor bolt design
+
+2.2.13      3 weeks   4.2       4.6       2.2.12        0      Turbine Engineering Documentation
+                                                                - Detailed drawings (rotor, casing, etc.)
+                                                                - Calculation reports
+                                                                - Material specifications
+                                                                - Assembly & erection manuals
+
+2.2.14      2 weeks   4.6       4.8       2.2.13        0      Turbine Design Review & Release
+                                                                - Design review meeting
+                                                                - Client approval
+                                                                - Regulatory compliance
+                                                                - Manufacturing release
+
+
+PHASE 2.C: BALANCE OF PLANT DESIGN (14 Months: Month 2-16)
+------
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+2.3.1       2 weeks   2.1       2.3       None          0      BoP Design Kickoff
+                                                                - Performance requirements
+                                                                - System interfaces
+                                                                - Design standards alignment
+                                                                - Vendor coordination
+
+2.3.2       3 weeks   2.3       2.7       2.3.1         0      Condenser Design
+                                                                - Condenser type selection (surface)
+                                                                - Heat exchanger design
+                                                                - Cooling water flow calculation
+                                                                - Tube material selection (cupronickel)
+
+2.3.3       2 weeks   2.7       2.9       2.3.2         0      Circulating Water System Design
+                                                                - Pump specification & sizing
+                                                                - Piping layout
+                                                                - Water intake design
+                                                                - Cooling tower (if used) design
+
+2.3.4       3 weeks   2.9       3.3       2.3.3         0      Feed Water System Design
+                                                                - Feed pump specification
+                                                                - Feed heater design & sizing
+                                                                - Deaerator design
+                                                                - Filter & strainers design
+
+2.3.5       3 weeks   3.3       3.7       2.3.1         0      Steam & Water Piping Design
+                                                                - Main steam piping (high pressure)
+                                                                - Cold reheat piping
+                                                                - Hot reheat piping
+                                                                - Pressure drop calculations
+
+2.3.6       2 weeks   3.7       3.9       2.3.5         0      Drain & Heat Exchanger System
+                                                                - Low pressure heater design
+                                                                - Drain cooler design
+                                                                - Drain pump design
+                                                                - Condensate system design
+
+2.3.7       2 weeks   3.9       4.1       2.3.4, 2.3.6  0      Water Treatment System Design
+                                                                - Makeup water treatment
+                                                                - Conditioning & softening
+                                                                - Demineralization plant design
+                                                                - Chemical dosing system
+
+2.3.8       2 weeks   4.1       4.3       2.3.7         0      Ash Handling System Design
+                                                                - Ash hopper design
+                                                                - Bottom ash handling
+                                                                - Fly ash handling (ESP collection)
+                                                                - Ash pond design
+
+2.3.9       2 weeks   4.3       4.5       2.3.8         0      Coal Handling System Design
+                                                                - Coal stockyard layout
+                                                                - Coal conveyor design
+                                                                - Coal mill design & sizing
+                                                                - Pulverizer specification
+
+2.3.10      2 weeks   4.5       4.7       2.3.9         0      FGD System Design (Flue Gas Desulfurization)
+                                                                - Absorber design (spray tower)
+                                                                - Limestone slurry preparation
+                                                                - Gypsum dewatering system
+                                                                - Stack design & height
+
+2.3.11      2 weeks   4.7       4.9       2.3.10        0      SCR System Design (Selective Catalytic Reduction)
+                                                                - Reactor vessel design
+                                                                - Catalyst selection & quantity
+                                                                - Ammonia injection system
+                                                                - Heat exchanger for SCR
+
+2.3.12      2 weeks   4.9       5.1       2.3.1         0      Instrument & Control Systems Design
+                                                                - Instrumentation list preparation
+                                                                - P&ID (Piping & Instrumentation Diagram)
+                                                                - Signal routing design
+                                                                - Control logic design
+
+2.3.13      3 weeks   5.1       5.5       2.3.12        0      BoP Documentation & Drawings
+                                                                - All P&ID finalizations
+                                                                - System block diagrams
+                                                                - Layout drawings
+                                                                - Equipment specification sheets
+
+2.3.14      2 weeks   5.5       5.7       2.3.13        0      BoP Design Review & Approval
+                                                                - Design review meeting
+                                                                - System integration verification
+                                                                - Client approval
+                                                                - Compliance certification
+
+
+PHASE 2.D: ELECTRICAL SYSTEMS DESIGN (14 Months: Month 2-16)
+------
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+2.4.1       2 weeks   2.1       2.3       None          0      Electrical Design Kickoff
+                                                                - Power generation requirements
+                                                                - Grid connection specifications
+                                                                - Design standards (IEC, IS)
+                                                                - Vendor interface
+
+2.4.2       3 weeks   2.3       2.7       2.4.1         0      Generator & Transformer Design
+                                                                - Generator (780 MVA) design coordination
+                                                                - Main transformer specification (2x500 MVA)
+                                                                - Tertiary transformer design
+                                                                - Impedance calculations
+
+2.4.3       3 weeks   2.7       3.1       2.4.2         0      HV Switchyard Design
+                                                                - Switchyard layout (400 kV & 220 kV)
+                                                                - Circuit breaker specification
+                                                                - Disconnector design
+                                                                - Earthing design
+
+2.4.4       2 weeks   3.1       3.3       2.4.3         0      Distribution & Control Power Design
+                                                                - 6.6 kV switchgear specification
+                                                                - 0.415 kV distribution design
+                                                                - UPS power supply design
+                                                                - Emergency power system
+
+2.4.5       3 weeks   3.3       3.7       2.4.4         0      Instrumentation & Control Design
+                                                                - DCS (Distributed Control System) design
+                                                                - SCADA design
+                                                                - Local Panel design
+                                                                - I/O specification
+
+2.4.6       2 weeks   3.7       3.9       2.4.5         0      Lighting & Auxiliary Power Design
+                                                                - Area lighting design
+                                                                - Emergency lighting design
+                                                                - Auxiliary power distribution
+                                                                - Power backup provision
+
+2.4.7       2 weeks   3.9       4.1       2.4.6         0      Protection & Safety Systems Design
+                                                                - Protective relay design
+                                                                - Safety interlocks
+                                                                - Fire detection system
+                                                                - Lightning protection design
+
+2.4.8       3 weeks   4.1       4.5       2.4.7         0      Cable & Wiring Specification
+                                                                - Power cable sizing
+                                                                - Control cable specification
+                                                                - Cable routing design
+                                                                - Termination design
+
+2.4.9       2 weeks   4.5       4.7       2.4.8         0      Grounding & Earthing Design
+                                                                - Earthing grid design
+                                                                - Earthing electrode design
+                                                                - Ground resistance calculation
+                                                                - Lightning & surge protection
+
+2.4.10      3 weeks   4.7       5.1       2.4.9         0      Electrical Documentation
+                                                                - Single-line diagrams
+                                                                - Wiring diagrams
+                                                                - Cable schedule
+                                                                - Equipment specification sheets
+
+2.4.11      2 weeks   5.1       5.3       2.4.10        0      Electrical Design Review & Approval
+                                                                - Design review meeting
+                                                                - Load flow studies
+                                                                - Fault analysis verification
+                                                                - Client & regulatory approval
+
+
+PHASE 2.E: DESIGN COMPLETION & APPROVAL (2 Months: Month 16-18)
+------
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+2.5.1       1 week    16.1      16.2      2.1.14, 2.2.14, Design Review - Boiler & Turbine
+                                          2.3.14, 2.4.11 0     - Cross-system integration review
+                                                                - Interface verification
+                                                                - Performance guarantee review
+                                                                - Regulatory compliance
+
+2.5.2       1 week    16.2      16.3      2.5.1         0      Design Review - Balance of Plant
+                                                                - All systems integration
+                                                                - Control system logic check
+                                                                - Safety system review
+                                                                - Operational procedure alignment
+
+2.5.3       1 week    16.3      16.4      2.5.2         0      Design Review - Electrical & Control
+                                                                - Power system verification
+                                                                - Control system logic check
+                                                                - Protection system coordination
+                                                                - Communication system design
+
+2.5.4       2 weeks   16.4      17.0      2.5.3         0      Final Design Documentation Compilation
+                                                                - All drawings finalization
+                                                                - Calculation reports
+                                                                - Bill of materials (BoM)
+                                                                - Material datasheets & certificates
+
+2.5.5       1 week    17.0      17.1      2.5.4         0      Design Approval & Client Sign-off
+                                                                - Client approval meetings
+                                                                - Regulatory authority approval
+                                                                - Design release certificate
+                                                                - Procurement authorization
+
+2.5.6       1 week    17.1      17.2      2.5.5         0      Design Handover to Manufacturing & Procurement
+                                                                - Specifications finalization
+                                                                - Vendor coordination
+                                                                - Manufacturing drawing distribution
+                                                                - Quality assurance plan finalization
+
+================================================================================
+PHASE 3: EQUIPMENT PROCUREMENT (24 Months)
+================================================================================
+
+PHASE 3.A: BOILER PROCUREMENT (22 Months: Month 0-22)
+------
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+3.1.1       3 weeks   0.1       0.4       None          0      RFQ Preparation - Boiler
+                                                                - Technical specification document
+                                                                - Commercial terms
+                                                                - Delivery & warranty terms
+                                                                - Quality requirements
+
+3.1.2       2 weeks   0.4       0.6       3.1.1         0      Boiler Supplier Identification & Evaluation
+                                                                - Vendor list shortlisting
+                                                                - Technical capability assessment
+                                                                - Financial capability check
+                                                                - Reference plant visits
+
+3.1.3       4 weeks   0.6       1.2       3.1.2         0      RFQ Issue & Bid Evaluation - Boiler
+                                                                - RFQ release to vendors
+                                                                - Bid clarifications
+                                                                - Technical bid evaluation
+                                                                - Commercial bid comparison
+
+3.1.4       3 weeks   1.2       1.5       3.1.3         0      Boiler Vendor Selection & Negotiation
+                                                                - Vendor selection (typically BHEL)
+                                                                - Commercial negotiations
+                                                                - Performance guarantee discussion
+                                                                - Delivery schedule finalization
+
+3.1.5       2 weeks   1.5       1.7       3.1.4         0      Boiler PO (Purchase Order) Issuance
+                                                                - PO finalization
+                                                                - Contract signing
+                                                                - Advance payment processing
+                                                                - Delivery schedule confirmation
+
+3.1.6       2 weeks   1.7       1.9       3.1.5         0      Boiler Design Finalization by Vendor
+                                                                - Detailed engineering by BHEL
+                                                                - Vendor drawings submittal
+                                                                - Design review & approval
+                                                                - Manufacturing release
+
+3.1.7       4 weeks   1.9       2.5       3.1.6         0      Boiler Material Procurement
+                                                                - Tube procurement (seamless alloy steel)
+                                                                - Header & manifold procurement
+                                                                - Refractory & insulation materials
+                                                                - Fasteners & welding consumables
+
+3.1.8       8 weeks   2.5       4.1       3.1.7         0      Boiler Component Manufacturing - Unit 1
+                                                                - Furnace tube welding & assembly
+                                                                - Superheater assembly
+                                                                - Economizer manufacturing
+                                                                - Pressure part fabrication
+
+3.1.9       8 weeks   3.5       5.1       3.1.7         0      Boiler Component Manufacturing - Unit 2
+                                                                - Parallel manufacturing for Unit-2
+                                                                - Furnace tube fabrication
+                                                                - Heat exchanger assembly
+                                                                - Quality testing at factory
+
+3.1.10      4 weeks   4.1       4.5       3.1.8         0      Boiler Auxiliary Components Manufacturing
+                                                                - Burner manufacturing
+                                                                - Coal feeder fabrication
+                                                                - FD & ID fan procurement
+                                                                - Circulating pump procurement
+
+3.1.11      3 weeks   4.5       4.8       3.1.9, 3.1.10 0     Boiler Assembly - Unit 1
+                                                                - Furnace assembly
+                                                                - Steam drum assembly
+                                                                - Pressure parts bolting
+                                                                - Water circulation testing
+
+3.1.12      3 weeks   5.1       5.4       3.1.9, 3.1.10 0     Boiler Assembly - Unit 2
+                                                                - Furnace assembly
+                                                                - Drum assembly & testing
+                                                                - Pressure part assembly
+                                                                - Hydro-test preparation
+
+3.1.13      2 weeks   4.8       5.0       3.1.11        0      Boiler Hydro-test & FAT - Unit 1
+                                                                - Hydrostatic pressure test (26 MPa)
+                                                                - NDT (Non-Destructive Testing)
+                                                                - Functional testing
+                                                                - FAT (Factory Acceptance Test)
+
+3.1.14      2 weeks   5.4       5.6       3.1.12        0      Boiler Hydro-test & FAT - Unit 2
+                                                                - Hydro-test (2x660 MW)
+                                                                - Visual inspection & NDT
+                                                                - Functional testing
+                                                                - FAT documentation
+
+3.1.15      2 weeks   5.0       5.2       3.1.13        0      Boiler Casing & Insulation - Unit 1
+                                                                - Casing welding & assembly
+                                                                - Refractory installation
+                                                                - Insulation wrapping
+                                                                - Cladding installation
+
+3.1.16      2 weeks   5.6       5.8       3.1.14        0      Boiler Casing & Insulation - Unit 2
+                                                                - Casing assembly
+                                                                - Refractory lining
+                                                                - Thermal insulation
+                                                                - Metal cladding
+
+3.1.17      3 weeks   5.2       5.6       3.1.15        0      Boiler Piping & Connections - Unit 1
+                                                                - Main steam piping internal
+                                                                - Reheat piping assembly
+                                                                - Drain & vent connections
+                                                                - Nozzle welding & testing
+
+3.1.18      3 weeks   5.8       6.2       3.1.16        0      Boiler Piping & Connections - Unit 2
+                                                                - Steam piping assembly
+                                                                - Reheat connections
+                                                                - Drain & vent system
+                                                                - Connection testing
+
+3.1.19      2 weeks   5.6       5.8       3.1.17        0      Boiler Performance Guarantee Test - Unit 1
+                                                                - Steam generation capability
+                                                                - Superheater outlet temperature
+                                                                - Efficiency guarantee verification
+                                                                - Boiler certification
+
+3.1.20      2 weeks   6.2       6.4       3.1.18        0      Boiler Performance Test - Unit 2
+                                                                - Steam generation test
+                                                                - Temperature guarantee check
+                                                                - Efficiency verification
+                                                                - Final certification
+
+3.1.21      3 weeks   5.8       6.2       3.1.19        0      Boiler Preparation for Shipment - Unit 1
+                                                                - Final inspection
+                                                                - Protective coating application
+                                                                - Packaging & crating
+                                                                - Documentation package
+
+3.1.22      3 weeks   6.4       6.8       3.1.20        0      Boiler Preparation for Shipment - Unit 2
+                                                                - Final inspection
+                                                                - Protective coating
+                                                                - Crating & labeling
+                                                                - Shipping documentation
+
+3.1.23      4 weeks   6.2       7.0       3.1.21        0      Boiler Transportation to Site - Unit 1
+                                                                - Logistics arrangement
+                                                                - Transport by rail/road
+                                                                - On-site unloading
+                                                                - Equipment inspection at site
+
+3.1.24      4 weeks   6.8       7.6       3.1.22        0      Boiler Transportation to Site - Unit 2
+                                                                - Rail/road transportation
+                                                                - Transit damage prevention
+                                                                - On-site delivery
+                                                                - Unloading & initial inspection
+
+
+PHASE 3.B: TURBINE-GENERATOR PROCUREMENT (20 Months: Month 2-22)
+------
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+3.2.1       2 weeks   2.1       2.3       None          0      RFQ Preparation - Turbine-Generator
+                                                                - Performance specification
+                                                                - Technical requirements (780 MVA)
+                                                                - Delivery & warranty terms
+                                                                - Quality standards
+
+3.2.2       2 weeks   2.3       2.5       3.2.1         0      Turbine-Generator Vendor Evaluation
+                                                                - Vendor shortlisting
+                                                                - Technical capability assessment
+                                                                - Track record review
+                                                                - Reference checks
+
+3.2.3       3 weeks   2.5       3.0       3.2.2         0      RFQ Issue & Bid Evaluation
+                                                                - RFQ release
+                                                                - Bid clarifications
+                                                                - Technical evaluation
+                                                                - Financial evaluation
+
+3.2.4       2 weeks   3.0       3.2       3.2.3         0      Vendor Selection & Negotiation
+                                                                - Vendor selection (typically BHEL)
+                                                                - Commercial negotiation
+                                                                - Guarantee terms finalization
+                                                                - Delivery schedule agreement
+
+3.2.5       1 week    3.2       3.3       3.2.4         0      PO Issuance - Turbine-Generator
+                                                                - PO finalization & signing
+                                                                - Contract execution
+                                                                - Advance payment
+                                                                - Delivery schedule confirmation
+
+3.2.6       3 weeks   3.3       3.7       3.2.5         0      Turbine-Generator Detailed Design by Vendor
+                                                                - Detailed engineering by BHEL
+                                                                - Rotor design finalization
+                                                                - Casing design approval
+                                                                - Generator design coordination
+
+3.2.7       6 weeks   3.7       4.7       3.2.6         0      Rotor Forging & Initial Processing - T-G Unit 1
+                                                                - Rotor forging (HP, IP, LP)
+                                                                - Rough machining
+                                                                - Stress relief heat treatment
+                                                                - Fine machining start
+
+3.2.8       6 weeks   4.3       5.3       3.2.6         0      Rotor Forging & Processing - T-G Unit 2
+                                                                - Parallel rotor manufacturing
+                                                                - Rotor blade fitting
+                                                                - Heat treatment cycles
+                                                                - Final rotor preparation
+
+3.2.9       4 weeks   4.7       5.5       3.2.7         0      Casing Manufacturing - T-G Unit 1
+                                                                - Casing casting/welding
+                                                                - Casing machining
+                                                                - Internal surface finishing
+                                                                - Bore accuracy verification
+
+3.2.10      4 weeks   5.3       6.1       3.2.8         0      Casing Manufacturing - T-G Unit 2
+                                                                - Casing manufacturing
+                                                                - Internal machining
+                                                                - Surface treatment
+                                                                - Quality inspection
+
+3.2.11      3 weeks   5.5       6.0       3.2.9         0      Bearing Procurement & Preparation - T-G Unit 1
+                                                                - Journal bearing supply
+                                                                - Thrust bearing procurement
+                                                                - Bearing metal lining
+                                                                - Bearing testing & approval
+
+3.2.12      3 weeks   6.1       6.6       3.2.10        0      Bearing Supply - T-G Unit 2
+                                                                - Journal bearing procurement
+                                                                - Thrust bearing supply
+                                                                - Bearing fitting & alignment
+                                                                - FAT preparation
+
+3.2.13      4 weeks   6.0       6.8       3.2.11        0      Generator Stator Coil Winding - Unit 1
+                                                                - Stator core lamination
+                                                                - Coil winding fabrication
+                                                                - Insulation & impregnation
+                                                                - Coil assembly in core
+
+3.2.14      4 weeks   6.6       7.4       3.2.12        0      Generator Stator Coil Winding - Unit 2
+                                                                - Parallel stator winding
+                                                                - Core lamination assembly
+                                                                - Insulation treatment
+                                                                - Winding testing
+
+3.2.15      3 weeks   6.8       7.3       3.2.13        0      Coupling Design & Manufacturing
+                                                                - Flexible coupling design
+                                                                - Coupling element fabrication
+                                                                - Alignment specification
+                                                                - Coupling FAT
+
+3.2.16      2 weeks   7.3       7.5       3.2.15        0      Rotor-Generator Assembly - Unit 1
+                                                                - Rotor to generator rotor assembly
+                                                                - Coupling fit-up
+                                                                - Balance verification
+                                                                - Assembly drawing review
+
+3.2.17      2 weeks   7.4       7.6       3.2.15        0      Rotor-Generator Assembly - Unit 2
+                                                                - Rotor assembly & coupling
+                                                                - Balance check
+                                                                - Alignment verification
+                                                                - Assembly documentation
+
+3.2.18      3 weeks   7.5       8.0       3.2.16        0      Turbine-Generator Complete Assembly & Testing - Unit 1
+                                                                - Full assembly (Rotor + Stator + Bearings)
+                                                                - Coupling alignment
+                                                                - Rotor rotation test (slow roll)
+                                                                - Insulation resistance testing
+
+3.2.19      3 weeks   7.6       8.1       3.2.17        0      T-G Complete Assembly & FAT - Unit 2
+                                                                - Full assembly
+                                                                - Rotor rotation verification
+                                                                - Generator insulation test
+                                                                - FAT documentation
+
+3.2.20      3 weeks   8.0       8.5       3.2.18        0      Turbine-Generator FAT (Factory Acceptance Test) - Unit 1
+                                                                - Witness testing by client
+                                                                - Performance guarantee verification
+                                                                - Certification & approval
+                                                                - Preparation for shipment
+
+3.2.21      3 weeks   8.1       8.6       3.2.19        0      T-G FAT - Unit 2
+                                                                - Witness testing
+                                                                - Performance verification
+                                                                - Final certification
+                                                                - Shipping preparation
+
+3.2.22      3 weeks   8.5       9.0       3.2.20        0      Turbine-Generator Shipment - Unit 1
+                                                                - Protective packaging
+                                                                - Transportation logistics
+                                                                - Rail/sea shipment
+                                                                - Receiving inspection at site
+
+3.2.23      3 weeks   8.6       9.1       3.2.21        0      T-G Shipment - Unit 2
+                                                                - Packaging & crating
+                                                                - Transportation arrangement
+                                                                - On-site delivery
+                                                                - Unloading & inspection
+
+
+PHASE 3.C: TRANSFORMER & SWITCHYARD EQUIPMENT (14 Months: Month 8-22)
+------
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+3.3.1       2 weeks   8.1       8.3       None          0      Main Transformer RFQ & Vendor Selection
+                                                                - Specification (2x500 MVA, 400 kV)
+                                                                - RFQ issue
+                                                                - Bid evaluation
+                                                                - Vendor selection
+
+3.3.2       2 weeks   8.3       8.5       3.3.1         0      Main Transformer PO & Manufacturing
+                                                                - PO issuance
+                                                                - Transformer manufacturing
+                                                                - Oil procurement
+                                                                - Core & winding fabrication
+
+3.3.3       8 weeks   8.5       10.1      3.3.2         0      Main Transformer Fabrication & Testing
+                                                                - Core assembly
+                                                                - Coil winding
+                                                                - Oil filling & treatment
+                                                                - FAT (heat run, short circuit, etc.)
+
+3.3.4       2 weeks   10.1      10.3      3.3.3         0      Main Transformer Dispatch & Delivery
+                                                                - Shipping logistics
+                                                                - Transportation
+                                                                - On-site delivery
+                                                                - Unloading
+
+3.3.5       2 weeks   8.3       8.5       None          0      Switchyard Equipment RFQ
+                                                                - Circuit breaker specification (400 kV, 220 kV)
+                                                                - Disconnector & earthing switch
+                                                                - Current transformer & voltage transformer
+                                                                - Control & protection relays
+
+3.3.6       2 weeks   8.5       8.7       3.3.5         0      Switchyard Equipment Vendor Selection
+                                                                - Vendor evaluation
+                                                                - Bid comparison
+                                                                - Vendor selection
+                                                                - Contract negotiation
+
+3.3.7       3 weeks   8.7       9.2       3.3.6         0      Circuit Breaker Manufacturing & FAT
+                                                                - CB manufacturing
+                                                                - SF6 gas filling
+                                                                - Functional testing
+                                                                - Operating mechanism testing
+
+3.3.8       3 weeks   9.2       9.7       3.3.6         0      Disconnector & Earthing Switch Manufacturing
+                                                                - Mechanical design
+                                                                - Blade assembly & testing
+                                                                - Interlocking mechanism
+                                                                - FAT
+
+3.3.9       3 weeks   9.7       10.2      3.3.6         0      Current & Voltage Transformer Manufacturing
+                                                                - Core lamination
+                                                                - Winding fabrication
+                                                                - Insulation & sealing
+                                                                - Accuracy testing
+
+3.3.10      3 weeks   10.2      10.7      3.3.7, 3.3.8, Switchyard Equipment Assembly & FAT
+                                          3.3.9         0      - Assembly at vendor
+                                                                - Functional testing
+                                                                - Control logic verification
+                                                                - Witness testing
+
+3.3.11      2 weeks   10.7      10.9      3.3.10        0      Switchyard Equipment Dispatch
+                                                                - Protective packaging
+                                                                - Transportation arrangement
+                                                                - On-site delivery
+                                                                - Inspection & unloading
+
+3.3.12      2 weeks   8.3       8.5       None          0      Control & Protection Relays RFQ
+                                                                - Specification & procurement
+                                                                - Digital relay specification
+                                                                - Communication interface
+                                                                - Testing requirements
+
+3.3.13      4 weeks   8.5       9.3       3.3.12        0      Protection Relay Manufacturing & Testing
+                                                                - Relay manufacturing
+                                                                - Firmware programming
+                                                                - Testing & verification
+                                                                - Documentation
+
+3.3.14      2 weeks   9.3       9.5       3.3.13        0      Control Relay Supply & Testing
+                                                                - Relay procurement
+                                                                - Testing
+                                                                - Documentation
+
+3.3.15      2 weeks   9.5       9.7       3.3.14        0      Relay Dispatch & Delivery
+                                                                - Shipment
+                                                                - On-site delivery
+                                                                - Storage & handling
+
+3.3.16      2 weeks   8.1       8.3       None          0      Other Switchyard Equipment (Cables, Insulators)
+                                                                - HV cable specification & procurement
+                                                                - Porcelain insulator procurement
+                                                                - Cable gland procurement
+                                                                - Connection hardware
+
+3.3.17      6 weeks   8.3       9.5       3.3.16        0      HV Cable Manufacturing & Testing
+                                                                - Cable extrusion
+                                                                - Insulation testing
+                                                                - Termination preparation
+                                                                - Coil & drum preparation
+
+3.3.18      4 weeks   9.5       10.3      3.3.17        0      Cable Dispatch & Delivery to Site
+                                                                - Transportation
+                                                                - On-site delivery
+                                                                - Storage & protection
+
+
+PHASE 3.D: OTHER MAJOR EQUIPMENT PROCUREMENT (20 Months: Month 0-20)
+------
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+3.4.1       2 weeks   0.1       0.3       None          0      Condenser RFQ & Vendor Selection
+                                                                - Surface condenser specification
+                                                                - Cooling water flow requirement
+                                                                - Tube material (cupronickel)
+                                                                - Vendor selection
+
+3.4.2       4 weeks   0.3       1.1       3.4.1         0      Condenser Manufacturing & FAT
+                                                                - Tube bundle fabrication
+                                                                - Condenser shell assembly
+                                                                - Leak testing (2.5x design pressure)
+                                                                - Performance testing
+
+3.4.3       2 weeks   1.1       1.3       3.4.2         0      Condenser Dispatch & Delivery
+                                                                - Protective packaging
+                                                                - Transportation
+                                                                - On-site delivery
+
+3.4.4       2 weeks   0.1       0.3       None          0      Feed Pump RFQ
+                                                                - Pump type & sizing
+                                                                - Motor specification (coupling)
+                                                                - Performance curve
+                                                                - Spare parts list
+
+3.4.5       4 weeks   0.3       1.1       3.4.4         0      Feed Pump Manufacturing & Testing
+                                                                - Pump body casting
+                                                                - Impeller fabrication
+                                                                - Mechanical seal specification
+                                                                - Performance testing & FAT
+
+3.4.6       2 weeks   1.1       1.3       3.4.5         0      Feed Pump Dispatch
+                                                                - Packaging & transportation
+                                                                - On-site delivery
+
+3.4.7       2 weeks   0.1       0.3       None          0      Circulating Water Pump RFQ
+                                                                - Large pump specification (5-6 MW)
+                                                                - Head & flow requirement
+                                                                - Motor coupling design
+                                                                - Vendor selection
+
+3.4.8       4 weeks   0.3       1.1       3.4.7         0      Circulating Pump Manufacturing & Testing
+                                                                - Large pump fabrication
+                                                                - Suction strainer design
+                                                                - Discharge valve
+                                                                - Full load performance test
+
+3.4.9       2 weeks   1.1       1.3       3.4.8         0      Circulating Pump Dispatch
+                                                                - Heavy equipment logistics
+                                                                - Transportation
+                                                                - On-site delivery
+
+3.4.10      2 weeks   1.1       1.3       None          0      Cooling Tower (if applicable) RFQ
+                                                                - Induced/forced draft cooling tower
+                                                                - Cooling capacity specification
+                                                                - Fan & motor specification
+                                                                - Water distribution system
+
+3.4.11      6 weeks   1.3       2.5       3.4.10        0      Cooling Tower Manufacturing & FAT
+                                                                - Steel structure fabrication
+                                                                - Packing media installation
+                                                                - Fill & drift eliminator
+                                                                - Water distribution system test
+
+3.4.12      2 weeks   2.5       2.7       3.4.11        0      Cooling Tower Dispatch & Delivery
+                                                                - Sectional shipment
+                                                                - Assembly at site
+                                                                - Erection logistics
+
+3.4.13      2 weeks   0.1       0.3       None          0      Generator Step-up Transformer RFQ
+                                                                - 400 kV/13.8 kV transformer (for generators)
+                                                                - Rating & impedance
+                                                                - Cooling specification
+                                                                - Vendor selection
+
+3.4.14      4 weeks   0.3       1.1       3.4.13        0      GST Manufacturing & Testing
+                                                                - Transformer fabrication
+                                                                - Oil filling & treatment
+                                                                - Performance testing (heat run, etc.)
+                                                                - FAT
+
+3.4.15      2 weeks   1.1       1.3       3.4.14        0      GST Dispatch & Delivery
+                                                                - Shipping logistics
+                                                                - On-site delivery
+
+3.4.16      2 weeks   0.1       0.3       None          0      Air Heater & Economizer Coil RFQ
+                                                                - Air heater specification
+                                                                - Economizer coil sizing
+                                                                - Tube material & flow arrangement
+                                                                - Vendor selection
+
+3.4.17      4 weeks   0.3       1.1       3.4.16        0      Air Heater & Economizer Manufacturing
+                                                                - Coil fabrication
+                                                                - Tube rolling & assembly
+                                                                - Leak testing
+                                                                - FAT
+
+3.4.18      2 weeks   1.1       1.3       3.4.17        0      Air Heater Dispatch
+                                                                - Shipment logistics
+                                                                - On-site delivery
+
+3.4.19      2 weeks   2.1       2.3       None          0      FGD & SCR Equipment RFQ
+                                                                - Absorber vessel specification
+                                                                - Catalyst specification
+                                                                - Gypsum dewatering system
+                                                                - Ammonia injection system
+
+3.4.20      6 weeks   2.3       3.5       3.4.19        0      FGD & SCR Equipment Manufacturing
+                                                                - Absorber fabrication
+                                                                - Mist eliminator
+                                                                - Pump & fan supply
+                                                                - Catalyst manufacturing
+
+3.4.21      2 weeks   3.5       3.7       3.4.20        0      FGD/SCR Equipment Dispatch
+                                                                - Transportation (large equipment)
+                                                                - On-site delivery
+
+
+PHASE 3.E: EQUIPMENT DELIVERY COORDINATION (2 Months: Month 22-24)
+------
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+3.5.1       1 week    22.1      22.2      3.1.23, 3.1.24, Boiler Arrival & Receipt
+                                          3.2.22, 3.2.23, 0    - Final boiler inspection at site
+                                          3.3.4, 3.3.11, - Storage arrangement
+                                          3.4.3, etc     - Weatherproofing
+                                                         - Insurance handover
+
+3.5.2       1 week    22.2      22.3      3.5.1         0      Turbine-Generator Arrival & Receipt
+                                                                - T-G inspection on arrival
+                                                                - Storage & weatherproofing
+                                                                - Insurance documentation
+                                                                - Spare parts verification
+
+3.5.3       1 week    22.3      22.4      3.5.2         0      Transformer & Switchyard Equipment Receipt
+                                                                - Equipment inventory
+                                                                - Storage & protection
+                                                                - Partial assembly (if required)
+                                                                - Insurance documentation
+
+3.5.4       2 weeks   22.1      22.3      3.5.1         0      Equipment Movement Planning
+                                                                - Layout finalization
+                                                                - Equipment positioning plan
+                                                                - Rigging equipment requirement
+                                                                - Crane scheduling
+
+3.5.5       2 weeks   22.3      22.5      3.5.4         0      Spare Parts & Consumables Receipt
+                                                                - Spare parts inventory
+                                                                - Consumables storage
+                                                                - Documentation & tagging
+                                                                - Inventory management system
+
+3.5.6       1 week    23.0      23.1      3.5.5         0      Equipment Positioning & Placement
+                                                                - Equipment movement to final location
+                                                                - Boiler positioning in boiler house
+                                                                - Turbine placement in turbine hall
+                                                                - Storage of auxiliary equipment
+
+
+================================================================================
+PHASE 4: CIVIL WORKS & INFRASTRUCTURE (22 Months: Month 2-24)
+================================================================================
+
+PHASE 4.A: FOUNDATION & STRUCTURAL WORKS (18 Months: Month 2-20)
+------
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+4.1.1       2 weeks   2.1       2.3       1.1.6         0      Soil Investigation & Foundation Design
+                                                                - Borehole drilling
+                                                                - Soil test reports
+                                                                - Foundation design confirmation
+                                                                - Pile design & specification
+
+4.1.2       4 weeks   2.3       3.1       4.1.1         0      Excavation for Foundation
+                                                                - Boiler house foundation (2 units)
+                                                                - Turbine hall foundation (2 units)
+                                                                - Condenser pit excavation
+                                                                - Dewatering arrangement
+
+4.1.3       6 weeks   3.1       4.3       4.1.2         0      Piling Work (If Required)
+                                                                - Bored pile boring
+                                                                - Pile driving (if driven piles)
+                                                                - Pile cap construction
+                                                                - Pile testing & verification
+
+4.1.4       4 weeks   4.3       5.1       4.1.3         0      Foundation Concrete Work - Phase 1
+                                                                - Formwork installation
+                                                                - Rebar fabrication & placement
+                                                                - Foundation raft concrete pouring
+                                                                - Curing & stripping
+
+4.1.5       4 weeks   5.1       5.5       4.1.4         0      Foundation Concrete Work - Phase 2
+                                                                - Plinth concrete
+                                                                - Base slab for equipment
+                                                                - Anchor bolt grouting
+                                                                - Curing & testing
+
+4.1.6       2 weeks   5.5       5.7       4.1.5         0      Foundation Leveling & Anchor Bolt Installation
+                                                                - Surface leveling & grouting
+                                                                - Anchor bolt setting (boiler, turbine)
+                                                                - Anchor bolt pretensioning
+                                                                - Survey & verification
+
+4.1.7       6 weeks   5.7       7.0       4.1.6         0      Structural Steel Fabrication - Boiler House
+                                                                - Column & beam fabrication
+                                                                - Roof truss fabrication
+                                                                - Gantry girder fabrication
+                                                                - Steel primer painting
+
+4.1.8       6 weeks   6.1       7.2       4.1.6         0      Structural Steel Fabrication - Turbine Hall
+                                                                - Turbine house columns
+                                                                - Beam fabrication
+                                                                - Roof structure
+                                                                - Paint & coating
+
+4.1.9       6 weeks   7.0       8.2       4.1.7         0      Structural Steel Erection - Boiler House
+                                                                - Column erection (2 units)
+                                                                - Beam installation
+                                                                - Roof truss erection
+                                                                - Bolting & welding
+
+4.1.10      6 weeks   7.2       8.4       4.1.8         0      Structural Steel Erection - Turbine Hall
+                                                                - Column placement (2 units)
+                                                                - Beam erection
+                                                                - Roof structure assembly
+                                                                - Final bolting & painting
+
+4.1.11      4 weeks   8.2       9.0       4.1.9         0      Boiler House Superstructure - Walls & Roof
+                                                                - Brickwork/block masonry
+                                                                - Roof sheeting installation
+                                                                - Door & window frame
+                                                                - Interior finishing (partial)
+
+4.1.12      4 weeks   8.4       9.2       4.1.10        0      Turbine Hall Superstructure
+                                                                - Wall construction
+                                                                - Roof installation
+                                                                - Acoustic enclosure (if required)
+                                                                - Control room structure
+
+4.1.13      3 weeks   9.0       9.3       4.1.11        0      Condenser & Cooling Tower Foundation
+                                                                - Condenser pit concrete
+                                                                - Cooling tower foundation
+                                                                - Drain sump excavation
+                                                                - Concrete curing
+
+4.1.14      3 weeks   9.3       9.6       4.1.13        0      Condenser Pit & Drain System
+                                                                - Pit preparation
+                                                                - Condenser installation base
+                                                                - Drain piping installation
+                                                                - Water seal arrangement
+
+4.1.15      4 weeks   9.6       10.4      4.1.12        0      Auxiliary Building Foundation & Structure
+                                                                - DCS room foundation
+                                                                - Administration block
+                                                                - Warehouse structure
+                                                                - Workshop building
+
+
+PHASE 4.B: WATER SYSTEMS & INFRASTRUCTURE (12 Months: Month 10-22)
+------
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+4.2.1       2 weeks   10.1      10.3      None          0      Water Treatment Plant Design & Layout
+                                                                - Treatment process design
+                                                                - Equipment sizing
+                                                                - Piping layout
+                                                                - Utility requirements
+
+4.2.2       3 weeks   10.3      10.7       4.2.1         0      Water Intake & Pump Station Construction
+                                                                - Intake structure from Pench dam
+                                                                - Pump house construction
+                                                                - Raw water pump installation
+                                                                - Suction & discharge piping
+
+4.2.3       2 weeks   10.7      10.9      4.2.2         0      Raw Water Reservoir & Storage
+                                                                - Reservoir excavation
+                                                                - Concrete lining
+                                                                - Storage capacity: 10,000 m³
+                                                                - Inlet & outlet arrangement
+
+4.2.4       4 weeks   10.9      11.7      4.2.3         0      Water Treatment Equipment Installation
+                                                                - Clarifier installation
+                                                                - Sand filter installation
+                                                                - Demineralizer equipment
+                                                                - Chemical dosing system
+
+4.2.5       3 weeks   11.7      12.1      4.2.4         0      Water Treatment Plant Testing & Commissioning
+                                                                - Equipment FAT
+                                                                - Flow testing
+                                                                - Water quality testing
+                                                                - Chemical balance adjustment
+
+4.2.6       4 weeks   12.1      12.9      4.2.5         0      Sewage Water Treatment (From Nagpur City)
+                                                                - Sewage connection from city network
+                                                                - Pre-treatment system installation
+                                                                - Integration with main water system
+                                                                - Quality monitoring
+
+4.2.7       3 weeks   10.3      10.7      None          0      Circulating Water Pump Station
+                                                                - Pump pit excavation
+                                                                - Large pump (5-6 MW) foundation
+                                                                - Motor installation
+                                                                - Piping arrangement
+
+4.2.8       4 weeks   10.7      11.5      4.2.7         0      Cooling Tower Installation (if used)
+                                                                - Cooling tower structure erection
+                                                                - Fan & motor installation
+                                                                - Water distribution system
+                                                                - Fill & elimination system
+
+4.2.9       2 weeks   11.5      11.7      4.2.8         0      Cooling Tower Testing & Operation
+                                                                - Cooling capacity test
+                                                                - Fan operation & balance
+                                                                - Water circulation test
+                                                                - Performance verification
+
+4.2.10      3 weeks   12.9      13.2      4.2.6         0      Main Cooling Water Piping
+                                                                - Large diameter main piping (1m+)
+                                                                - Condenser water inlet/outlet
+                                                                - Return water piping
+                                                                - Isolation & control valves
+
+4.2.11      2 weeks   13.2      13.4      4.2.10        0      Drain & Vent Piping System
+                                                                - Drain pit construction
+                                                                - Vent system piping
+                                                                - Relief piping
+                                                                - Backpressure valve installation
+
+4.2.12      2 weeks   13.4      13.6      4.2.11        0      Fire Water & Utility Water System
+                                                                - Fire water pump installation
+                                                                - Fire water storage tank
+                                                                - Yard hydrant installation
+                                                                - Utility water distribution
+
+
+PHASE 4.C: COAL HANDLING & ASH DISPOSAL (18 Months: Month 6-24)
+------
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+4.3.1       2 weeks   6.1       6.3       4.1.2         0      Coal Handling Plant Design & Layout
+                                                                - Coal stockyard design
+                                                                - Reclaimer design & sizing
+                                                                - Conveyor system design
+                                                                - Coal mill layout
+
+4.3.2       3 weeks   6.3       6.7       4.3.1         0      Coal Stockyard Construction
+                                                                - Stockyard preparation (5 hectares)
+                                                                - Dyke construction (for water retention)
+                                                                - Stockyard hardstanding
+                                                                - Dust suppression system
+
+4.3.3       4 weeks   6.7       7.5       4.3.2         0      Coal Handling Conveyor System Installation
+                                                                - Conveyor structure erection
+                                                                - Belt conveyor installation
+                                                                - Drive motor installation
+                                                                - Load cell & scale box
+
+4.3.4       3 weeks   7.5       7.8       4.3.3         0      Coal Stockyard Reclaimer Installation
+                                                                - Reclaimer mechanism assembly
+                                                                - Bucket chain installation
+                                                                - Motor & gearbox
+                                                                - Control system setup
+
+4.3.5       2 weeks   7.8       8.0       4.3.4         0      Coal Handling Dry Run & Testing
+                                                                - Empty run testing
+                                                                - Load testing with dummy coal
+                                                                - Safety system check
+                                                                - Operational handover
+
+4.3.6       4 weeks   8.0       8.8       4.3.5         0      Coal Mill Installation
+                                                                - Pulverizer foundation
+                                                                - Pulverizer assembly & erection
+                                                                - Primary air fan
+                                                                - Secondary air fan connection
+
+4.3.7       2 weeks   8.8       9.0       4.3.6         0      Coal Mill Testing & Commissioning
+                                                                - Coal pulverization test
+                                                                - Air flow verification
+                                                                - Dust collection system check
+                                                                - Operational training
+
+4.3.8       2 weeks   6.1       6.3       None          0      Ash Handling System Design
+                                                                - Bottom ash hopper design
+                                                                - Fly ash (ESP) collection design
+                                                                - Ash conveying system
+                                                                - Ash pond/disposal site design
+
+4.3.9       3 weeks   6.3       6.7       4.3.8         0      Bottom Ash Handling System
+                                                                - Ash hopper installation below furnace
+                                                                - Ash conveying system setup
+                                                                - Ash water spray system
+                                                                - Cooling arrangement
+
+4.3.10      4 weeks   6.7       7.5       4.3.9         0      Fly Ash Handling System Installation
+                                                                - ESP (Electrostatic Precipitator) structure
+                                                                - Hopper installation
+                                                                - Pneumatic conveying system
+                                                                - Ash silo erection
+
+4.3.11      3 weeks   7.5       7.8       4.3.10        0      Ash Pond Preparation & Construction
+                                                                - Pond excavation (capacity: 50,000 m³)
+                                                                - Dyke construction
+                                                                - Pond lining (clay or HDPE)
+                                                                - Drain & monitoring wells
+
+4.3.12      2 weeks   7.8       8.0       4.3.11        0      Ash Pond Water Management
+                                                                - Ash slurry piping to pond
+                                                                - Water return piping
+                                                                - Recycle pump installation
+                                                                - Level monitoring system
+
+4.3.13      2 weeks   9.0       9.2       4.3.7, 4.3.12, Ash Handling System Testing & Commissioning
+                                          4.3.9, 4.3.10 0      - Ash flow verification
+                                                                - Water balance check
+                                                                - Ash quality assessment
+                                                                - Operational readiness
+
+
+PHASE 4.D: ELECTRICAL INFRASTRUCTURE & BUILDINGS (16 Months: Month 8-24)
+------
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+4.4.1       2 weeks   8.1       8.3       4.1.10        0      Control Room Building Design & Construction Start
+                                                                - Control room foundation
+                                                                - DCS room design
+                                                                - Cable tray & duct routing
+                                                                - HVAC provision design
+
+4.4.2       4 weeks   8.3       9.1       4.4.1         0      Control Room Building Erection
+                                                                - Structural erection
+                                                                - Roofing & enclosure
+                                                                - Flooring (raised floor for cables)
+                                                                - Doors & windows
+
+4.4.3       3 weeks   9.1       9.4       4.4.2         0      Control Room Interior Finishing
+                                                                - Panel mounting structure
+                                                                - Cable tray installation
+                                                                - Grounding grid
+                                                                - Lighting & HVAC duct
+
+4.4.4       2 weeks   9.4       9.6       4.4.3         0      Control Room Final Preparation
+                                                                - Panel board installation (dry run)
+                                                                - Cable termination points
+                                                                - Earthing verification
+                                                                - Readiness for panel installation
+
+4.4.5       2 weeks   8.1       8.3       None          0      Switch Yard Foundation & Structures
+                                                                - Switchyard foundation design
+                                                                - Equipment foundation (CB, isolators)
+                                                                - Cable trench design
+                                                                - Grounding grid design
+
+4.4.6       4 weeks   8.3       9.1       4.4.5         0      Switch Yard Civil Works
+                                                                - Foundation concrete work
+                                                                - Equipment foundation installation
+                                                                - Grounding grid erection
+                                                                - Cable trench construction
+
+4.4.7       3 weeks   9.1       9.4       4.4.6         0      Switch Yard Infrastructure Completion
+                                                                - Walkway & platform installation
+                                                                - Safety fence erection
+                                                                - Lighting structure
+                                                                - Drainage arrangement
+
+4.4.8       2 weeks   10.1      10.3      None          0      Auxiliary Equipment Building
+                                                                - Warehouse foundation
+                                                                - Workshop structure
+                                                                - Office building structure
+                                                                - Storage facility erection
+
+4.4.9       3 weeks   10.3      10.7      4.4.8         0      Auxiliary Buildings Completion
+                                                                - Roofing & enclosure
+                                                                - Interior partitioning
+                                                                - Utilities (water, power)
+                                                                - Final finishing
+
+4.4.10      4 weeks   10.7      11.5      4.4.7, 4.4.9  0      Cable Trenches & Cable Routing Infrastructure
+                                                                - Main cable trench construction
+                                                                - Sub-cable trenches
+                                                                - Cable tray installation
+                                                                - Cable duct installation
+
+4.4.11      3 weeks   11.5      11.8      4.4.10        0      Grounding System Installation
+                                                                - Grounding grid laying
+                                                                - Grounding electrode installation
+                                                                - Down conductor installation
+                                                                - Resistance measurement
+
+4.4.12      2 weeks   11.8      12.0      4.4.11        0      Substation Building Completion
+                                                                - Control room finishing
+                                                                - Switchyard building (if enclosed)
+                                                                - HVAC system installation
+                                                                - Testing & commissioning
+
+
+================================================================================
+PHASE 5: BOILER ERECTION - UNIT 1 (14 Months: Month 10-24)
+================================================================================
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+5.1.1       3 weeks   10.1      10.4      4.1.5         0      Boiler Foundation Preparation & Cleaning
+                                                                - Foundation cleaning & leveling
+                                                                - Anchor bolt verification
+                                                                - Temporary support structure
+                                                                - Site readiness checklist
+
+5.1.2       1 week    10.4      10.5      5.1.1         0      Boiler Arrival & Unloading
+                                                                - Boiler arrival at site
+                                                                - Heavy lifting equipment mobilization
+                                                                - Unloading sequence planning
+                                                                - Temporary storage arrangement
+
+5.1.3       3 weeks   10.5      10.8      5.1.2, 3.5.1  0      Furnace Assembly - Unit 1
+                                                                - Furnace water walls assembly
+                                                                - Burner furnace section
+                                                                - Furnace tube connection
+                                                                - Internal surface inspection
+
+5.1.4       2 weeks   10.8      11.0      5.1.3         0      Furnace to Drum Connection
+                                                                - Pressure parts bolting
+                                                                - Bolting torque procedure
+                                                                - Gasket placement verification
+                                                                - Leak detection preparation
+
+5.1.5       2 weeks   11.0      11.2      5.1.4         0      Boiler Drum Assembly & Connection
+                                                                - Steam drum & mud drum assembly
+                                                                - Connection piping inside boiler
+                                                                - Circulation path verification
+                                                                - Internal tube arrangement
+
+5.1.6       2 weeks   11.2      11.4      5.1.5         0      Boiler Tubes & Tube Bends Installation
+                                                                - Superheater tube installation
+                                                                - Reheater tube assembly
+                                                                - Economizer installation
+                                                                - Air heater installation
+
+5.1.7       1 week    11.4      11.5      5.1.6         0      Tube Expansion & Connection
+                                                                - Tube rolling in ferrules
+                                                                - Expansion joint installation
+                                                                - Connection bolting
+                                                                - Alignment verification
+
+5.1.8       3 weeks   11.5      11.8      5.1.7         0      Boiler External Connections - Piping
+                                                                - Main steam outlet piping
+                                                                - Reheat inlet piping
+                                                                - Reheater outlet piping
+                                                                - Drain & vent connections
+
+5.1.9       2 weeks   11.8      12.0      5.1.8         0      Burner Assembly & Installation
+                                                                - Coal burner assembly (8 burners)
+                                                                - Burner tile arrangement
+                                                                - Primary air connection
+                                                                - Flame scanner installation
+
+5.1.10      2 weeks   12.0      12.2      5.1.9         0      Forced Draft (FD) & Induced Draft (ID) Fan Connection
+                                                                - FD fan ductwork assembly
+                                                                - ID fan connection
+                                                                - Damper installation & linkage
+                                                                - Fan motor connection
+
+5.1.11      3 weeks   12.2      12.5      5.1.10        0      Boiler Casing & Insulation Installation
+                                                                - Casing panels assembly
+                                                                - Refractory lining (if not done in factory)
+                                                                - Thermal insulation installation
+                                                                - Metal cladding arrangement
+
+5.1.12      2 weeks   12.5      12.7      5.1.11        0      Feed Water & Circulation System
+                                                                - Feedwater heater connection
+                                                                - Feedwater inlet piping
+                                                                - Circulation pump suction piping
+                                                                - Drain piping
+
+5.1.13      2 weeks   12.7      12.9      5.1.12        0      Air Preheater Installation
+                                                                - Air preheater tube bundle
+                                                                - Rotor/element installation
+                                                                - Drive mechanism
+                                                                - Sealing strips
+
+5.1.14      2 weeks   12.9      13.1      5.1.13        0      Flue Gas Path Completion
+                                                                - Flue gas ductwork
+                                                                - Economizer connection to boiler
+                                                                - Air heater inlet/outlet connection
+                                                                - Outlet stack connection
+
+5.1.15      1 week    13.1      13.2      5.1.14        0      Instrumentation & Safety Device Installation
+                                                                - Temperature sensor installation
+                                                                - Pressure transmitter installation
+                                                                - Safety valve installation & setting
+                                                                - Blowdown valve
+
+5.1.16      2 weeks   13.2      13.4      5.1.15        0      Boiler Auxiliary & Control Equipment
+                                                                - Fuel oil heater (if applicable)
+                                                                - Oil supply system
+                                                                - Atomizer installation
+                                                                - Control valve assembly
+
+5.1.17      1 week    13.4      13.5      5.1.16        0      Boiler Surface Cleaning & Passivation
+                                                                - Exterior cleaning
+                                                                - Stainless steel passivation (if required)
+                                                                - Protective coating touch-up
+                                                                - Site cleanup
+
+5.1.18      2 weeks   13.5      13.7      5.1.17        0      Boiler Pre-Commissioning Preparation
+                                                                - All connections checklist
+                                                                - Joint inspection
+                                                                - Paint & coating verification
+                                                                - Documentation review
+
+5.1.19      3 weeks   13.7      14.1      5.1.18, 4.2.5 0      Boiler Hydrostatic Pressure Test (Hydrotest)
+                                                                - Water fill & pressurization schedule
+                                                                - Pressure ramp-up (26 MPa)
+                                                                - Hold at design pressure (30 minutes)
+                                                                - Leak detection & repair
+
+5.1.20      1 week    14.1      14.2      5.1.19        0      Boiler NDT (Non-Destructive Testing)
+                                                                - Radiographic inspection (critical welds)
+                                                                - Ultrasonic testing (tube thickness)
+                                                                - Dye penetrant testing
+                                                                - Defect repair & re-testing
+
+5.1.21      2 weeks   14.2      14.4      5.1.20        0      Boiler FAT (Factory Acceptance Test) - Unit 1
+                                                                - Performance test
+                                                                - Steam generation test (witness test)
+                                                                - Efficiency verification
+                                                                - FAT certificate issuance
+
+
+================================================================================
+PHASE 6: BOILER ERECTION - UNIT 2 (14 Months: Month 14-28)
+================================================================================
+
+(Similar to Phase 5 - Unit 1, but starting from Month 14 and ending at Month 28)
+(All activities identical to Unit-1 boiler erection, just offset by 4 months)
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+6.1.1       3 weeks   14.1      14.4      4.1.5         0      Boiler Foundation Prep - Unit 2
+6.1.2       1 week    14.4      14.5      6.1.1, 3.5.1  0      Boiler Arrival & Unloading - Unit 2
+6.1.3       3 weeks   14.5      14.8      6.1.2         0      Furnace Assembly - Unit 2
+6.1.4       2 weeks   14.8      15.0      6.1.3         0      Furnace to Drum Connection - Unit 2
+[... continues with same structure as Unit-1, offset 4 months ...]
+6.1.21      2 weeks   18.2      18.4      6.1.20        0      Boiler FAT - Unit 2
+
+
+================================================================================
+PHASE 7: TURBINE-GENERATOR ERECTION - UNIT 1 (10 Months: Month 18-28)
+================================================================================
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+7.1.1       2 weeks   18.1      18.3      4.1.10        0      Turbine Foundation Preparation - Unit 1
+                                                                - Foundation cleaning & leveling
+                                                                - Anchor bolt verification (main/aux bearings)
+                                                                - Temporary supports/jacks
+                                                                - Site readiness certification
+
+7.1.2       1 week    18.3      18.4      7.1.1, 3.2.22 0      Turbine-Generator Arrival & Unloading
+                                                                - T-G unloading at turbine hall
+                                                                - Heavy crane operations
+                                                                - Temporary storage on blocking
+                                                                - Equipment inspection after transport
+
+7.1.3       3 weeks   18.4      18.7      7.1.2         0      Turbine Rotor Installation on Bearing Pedestals
+                                                                - Journal bearing assembly
+                                                                - Rotor lifting on temporary jacks
+                                                                - Rotor installation in bearings
+                                                                - Bearing metal inspection
+
+7.1.4       2 weeks   18.7      18.9      7.1.3         0      Thrust Bearing Installation
+                                                                - Thrust bearing pedestal preparation
+                                                                - Thrust bearing assembly
+                                                                - Oil supply connections
+                                                                - Bearing gap setting
+
+7.1.5       2 weeks   18.9      19.1      7.1.4         0      Generator Stator Installation
+                                                                - Generator stator lowering into casing
+                                                                - Stator alignment verification
+                                                                - Stator frame bolting
+                                                                - Ventilation duct inspection
+
+7.1.6       2 weeks   19.1      19.3      7.1.5         0      Generator Rotor Installation
+                                                                - Generator rotor (squirrel cage or wound)
+                                                                - Rotor insertion into stator
+                                                                - Coupling alignment check
+                                                                - Generator air gap measurement
+
+7.1.7       2 weeks   19.3      19.5      7.1.6         0      Coupling Assembly - Turbine to Generator
+                                                                - Flexible coupling assembly
+                                                                - Coupling bolting
+                                                                - Alignment check (dial indicator method)
+                                                                - Coupling FAT documentation
+
+7.1.8       3 weeks   19.5      19.8      7.1.7         0      Main/Auxiliary Bearing Connections
+                                                                - Oil header piping to bearings
+                                                                - Cooling water connections
+                                                                - Drain piping from bearings
+                                                                - Temperature/pressure sensor connections
+
+7.1.9       2 weeks   19.8      20.0      7.1.8         0      Turbine-Generator Sealing System
+                                                                - Labyrinth seal installation (if applicable)
+                                                                - Oil seal installation
+                                                                - Seal clearance verification
+                                                                - Leakage drain connections
+
+7.1.10      2 weeks   20.0      20.2      7.1.9         0      Turbine-Generator Cooling System Connection
+                                                                - Generator cooling water inlet
+                                                                - Generator cooling water outlet
+                                                                - Air cooling duct connections
+                                                                - Thermometer pocket installation
+
+7.1.11      2 weeks   20.2      20.4      7.1.10        0      Instrumentation - Turbine-Generator
+                                                                - Vibration sensors (displacement probes)
+                                                                - Bearing temperature sensors
+                                                                - Generator winding temperature (RTD)
+                                                                - Rotor position sensors (if applicable)
+
+7.1.12      1 week    20.4      20.5      7.1.11        0      Electrical Connections - Generator
+                                                                - Stator lead connection to terminals
+                                                                - Terminal box assembly
+                                                                - Field winding connections (if wound rotor)
+                                                                - Earthing check
+
+7.1.13      2 weeks   20.5      20.7      7.1.12        0      Turbine-Generator Slow Roll (Manual Rotation)
+                                                                - Manual rotation of rotor
+                                                                - Bearing oil circulation check
+                                                                - Thermal growth observation
+                                                                - Alignment re-check
+
+7.1.14      1 week    20.7      20.8      7.1.13        0      Generator Insulation Resistance Test
+                                                                - Megohm testing (coil insulation)
+                                                                - Acceptance criteria verification
+                                                                - Documentation
+
+7.1.15      2 weeks   20.8      21.0      7.1.14        0      Turbine-Generator FAT (Factory Acceptance Test)
+                                                                - Witness testing
+                                                                - No-load test (speed, voltage)
+                                                                - Load test (if performed at vendor)
+                                                                - FAT documentation
+
+
+================================================================================
+PHASE 8: TURBINE-GENERATOR ERECTION - UNIT 2 (10 Months: Month 22-32)
+================================================================================
+
+(Similar structure to Unit-1 T-G Erection, offset by 4 months)
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+8.1.1       2 weeks   22.1      22.3      4.1.10        0      Turbine Foundation Prep - Unit 2
+[... continues with same structure as Unit-1, offset 4 months ...]
+8.1.15      2 weeks   26.8      27.0      8.1.14        0      T-G FAT - Unit 2
+
+
+================================================================================
+PHASE 9: ELECTRICAL & CONTROL SYSTEMS INSTALLATION (14 Months: Month 18-32)
+================================================================================
+
+PHASE 9.A: SWITCHYARD INSTALLATION (6 Months: Month 18-24)
+------
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+9.1.1       2 weeks   18.1      18.3      4.4.7         0      Switchyard Equipment Foundation Inspection
+                                                                - Foundation levelness check
+                                                                - Anchor bolt verification
+                                                                - Elevation surveying
+                                                                - Equipment positioning reference marks
+
+9.1.2       1 week    18.3      18.4      9.1.1         0      Circuit Breaker (400 kV) Installation
+                                                                - Circuit breaker assembly
+                                                                - Operating mechanism check
+                                                                - SF6 gas filling & purity check
+                                                                - Bolt fastening
+
+9.1.3       1 week    18.4      18.5      9.1.2         0      Circuit Breaker (220 kV) Installation
+                                                                - CB assembly
+                                                                - Mechanism testing
+                                                                - SF6 filling & check
+                                                                - Bolting & fastening
+
+9.1.4       2 weeks   18.5      18.7      9.1.3         0      Disconnector & Earthing Switch Installation
+                                                                - Disconnector assembly (400 kV, 220 kV)
+                                                                - Earthing switch assembly
+                                                                - Mechanism alignment
+                                                                - Interlocking verification
+
+9.1.5       1 week    18.7      18.8      9.1.4         0      Current Transformer Installation
+                                                                - CT mounting on support structures
+                                                                - Primary connection
+                                                                - Secondary wiring
+                                                                - Grounding verification
+
+9.1.6       1 week    18.8      18.9      9.1.5         0      Voltage Transformer Installation
+                                                                - VT mounting
+                                                                - Primary cable connection
+                                                                - Secondary wiring
+                                                                - Earthing check
+
+9.1.7       2 weeks   18.9      19.1      9.1.6         0      Main Transformer Connection - Unit 1
+                                                                - Transformer positioning
+                                                                - HV cable connection (generator to transformer)
+                                                                - Transformer cooling system operation
+                                                                - Oil level & temperature monitoring
+
+9.1.8       2 weeks   19.1      19.3      9.1.7         0      Generator Step-up Transformer (GST) Connection
+                                                                - GST positioning & bolting
+                                                                - Cooling water connections
+                                                                - Oil system check
+                                                                - Pressure relief valve setting
+
+9.1.9       2 weeks   19.3      19.5      9.1.8         0      Switchyard Cabling - HV Power Cables
+                                                                - HV cable laying in trench
+                                                                - Cable termination kits
+                                                                - Cable gland assembly
+                                                                - Insulation resistance testing
+
+9.1.10      2 weeks   19.5      19.7      9.1.9         0      Switchyard Grounding System Verification
+                                                                - Grounding grid measurement
+                                                                - Earthing conductor connection
+                                                                - Lightning arrester earthing
+                                                                - Resistance measurement
+
+9.1.11      1 week    19.7      19.8      9.1.10        0      Protection Relay Installation & Wiring
+                                                                - Digital relay mounting in panels
+                                                                - Control wiring from CT/VT
+                                                                - Fiber optic communication cables (if applicable)
+                                                                - Relay testing
+
+9.1.12      1 week    19.8      19.9      9.1.11        0      Switchyard Control Circuits & Cabling
+                                                                - Control circuit wiring (tripping circuits)
+                                                                - SCADA communication cabling
+                                                                - Battery backup circuits
+                                                                - Control circuit testing
+
+9.1.13      2 weeks   19.9      20.1      9.1.12        0      Switchyard Safety & Testing
+                                                                - High voltage testing (megohm testing)
+                                                                - Circuit breaker functional test
+                                                                - Trip circuit test (dummy load)
+                                                                - Safety interlock verification
+
+9.1.14      1 week    20.1      20.2      9.1.13        0      Switchyard Commissioning Preparation
+                                                                - All connections verified
+                                                                - Documentation complete
+                                                                - Safety checklist
+                                                                - Readiness for energization
+
+
+PHASE 9.B: CONTROL & DCS INSTALLATION (6 Months: Month 20-26)
+------
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+9.2.1       1 week    20.1      20.2      4.4.3         0      DCS Panel Assembly - Control Room Preparation
+                                                                - Panel arrival & unboxing
+                                                                - Panel positioning in control room
+                                                                - Panel grounding connection
+                                                                - Cable tray organization
+
+9.2.2       2 weeks   20.2      20.4      9.2.1         0      DCS Hardware Installation
+                                                                - CPU module installation
+                                                                - I/O modules installation
+                                                                - Communication interface installation
+                                                                - Power supply installation & testing
+
+9.2.3       2 weeks   20.4      20.6      9.2.2         0      DCS Software Configuration & Loading
+                                                                - Software compilation from design
+                                                                - Logic loading into modules
+                                                                - Backup system configuration
+                                                                - Software documentation
+
+9.2.4       2 weeks   20.6      20.8      9.2.3         0      Local Control Panels Assembly
+                                                                - Panel wiring completion
+                                                                - Push button & indicator light installation
+                                                                - Selector switch installation
+                                                                - Logic module setup (if applicable)
+
+9.2.5       1 week    20.8      20.9      9.2.4         0      SCADA (Supervisory Control & Data Acquisition) Setup
+                                                                - Communication protocol configuration
+                                                                - Ethernet network setup
+                                                                - Operator workstation configuration
+                                                                - Historical data logging setup
+
+9.2.6       1 week    20.9      21.0      9.2.5         0      Operator Interface & Mimic Display Setup
+                                                                - HMI (Human Machine Interface) configuration
+                                                                - Screen design & display
+                                                                - Alarm & event logging
+                                                                - User access control
+
+9.2.7       2 weeks   21.0      21.2      9.2.6         0      Control System Cabling & Connections
+                                                                - Signal cables from field instruments to DCS
+                                                                - Sensor connections (temperature, pressure)
+                                                                - Actuator connections (control valves)
+                                                                - Signal verification & testing
+
+9.2.8       2 weeks   21.2      21.4      9.2.7         0      Control Logic Testing & Verification
+                                                                - Loop testing (with dummy signals)
+                                                                - Interlock testing
+                                                                - Alarm & shutdown testing
+                                                                - Logic documentation review
+
+9.2.9       1 week    21.4      21.5      9.2.8         0      Backup Power System (UPS) Installation
+                                                                - UPS unit installation
+                                                                - Battery bank assembly
+                                                                - Load testing (no-load & load test)
+                                                                - Automatic switchover testing
+
+9.2.10      1 week    21.5      21.6      9.2.9         0      Control System Safety Interlocks
+                                                                - Furnace safeguard logic
+                                                                - Overpressure protection circuits
+                                                                - Temperature protection circuits
+                                                                - Manual override provisions
+
+
+PHASE 9.C: FIELD INSTRUMENTATION INSTALLATION (6 Months: Month 21-27)
+------
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+9.3.1       2 weeks   21.1      21.3      5.1.15, 7.1.11 Boiler & Turbine Temperature Sensors
+                                                        0      - Thermowells installation
+                                                                - RTD (Resistance Temperature Detector) insertion
+                                                                - Thermocouple installation
+                                                                - Temperature transmitter connection
+
+9.3.2       2 weeks   21.3      21.5      9.3.1         0      Pressure Measurement Instrument Installation
+                                                                - Pressure taps drilling (when safe)
+                                                                - Pressure transducers mounting
+                                                                - Impulse lines installation
+                                                                - Snubbers & isolation valves
+
+9.3.3       2 weeks   21.5      21.7      9.3.2         0      Level Measurement Installation
+                                                                - Level gauge glass mounting (if applicable)
+                                                                - Level transmitter installation (steam drum)
+                                                                - Capacitive level sensor installation
+                                                                - Calibration verification
+
+9.3.4       2 weeks   21.7      21.9      9.3.3         0      Flow Measurement Installation
+                                                                - Turbine flow meter installation
+                                                                - Feedwater flow meter
+                                                                - Extraction steam flow meters
+                                                                - Orifice plate installation (if used)
+
+9.3.5       2 weeks   21.9      22.1      9.3.4         0      Vibration & Bearing Monitoring Sensors
+                                                                - Displacement probes (turbine journal bearing)
+                                                                - Accelerometers (for high-frequency vibration)
+                                                                - Bearing temperature sensors
+                                                                - Sensor cabling & connection
+
+9.3.6       2 weeks   22.1      22.3      9.3.5         0      Combustion & Flame Detection Instrumentation
+                                                                - Furnace temperature measurement (radiation)
+                                                                - Flame scanner installation (8 burners)
+                                                                - O2 analyzer probe installation (in flue gas)
+                                                                - Combustion control sensor cabling
+
+9.3.7       2 weeks   22.3      22.5      9.3.6         0      Analytical Instruments
+                                                                - O2 analyzer in flue gas stream
+                                                                - pH analyzer (cooling water)
+                                                                - Conductivity analyzer (water quality)
+                                                                - Analyzer calibration & verification
+
+9.3.8       1 week    22.5      22.6      9.3.7         0      Instrument Cable Routing & Termination
+                                                                - Cable trays with proper separation (HV vs signal)
+                                                                - Conduit routing in control room
+                                                                - Terminal block installation
+                                                                - Cable labeling & documentation
+
+9.3.9       1 week    22.6      22.7      9.3.8         0      Instrument Zero & Span Calibration
+                                                                - Sensor calibration against standards
+                                                                - Transmitter range setting
+                                                                - Data logging accuracy check
+                                                                - Calibration certificates
+
+
+PHASE 9.D: ELECTRICAL POWER DISTRIBUTION (8 Months: Month 18-26)
+------
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+9.4.1       2 weeks   18.1      18.3      4.4.10        0      HV Cable Installation - Power Transmission
+                                                                - Main cable laying from transformer to switchyard
+                                                                - Cable support structures
+                                                                - Cable termination kits
+                                                                - Insulation resistance testing
+
+9.4.2       2 weeks   18.3      18.5      9.4.1         0      MV (6.6 kV) Switchgear Installation
+                                                                - Switchgear panel assembly
+                                                                - Circuit breaker installation
+                                                                - Power cable connections
+                                                                - Control wiring
+
+9.4.3       2 weeks   18.5      18.7      9.4.2         0      LV (0.415 kV) Distribution Board Installation
+                                                                - Distribution board assembly
+                                                                - Main circuit breakers
+                                                                - Distribution to sub-panels
+                                                                - Neutral & earth connections
+
+9.4.4       2 weeks   18.7      18.9      9.4.3         0      UPS System & Battery Installation
+                                                                - UPS unit installation
+                                                                - Battery bank assembly
+                                                                - Charger unit installation
+                                                                - Load testing
+
+9.4.5       2 weeks   18.9      19.1      9.4.4         0      Emergency Power System (DG Set) Installation
+                                                                - Diesel generator installation
+                                                                - Engine-alternator coupling
+                                                                - Fuel tank installation
+                                                                - Exhaust system
+
+9.4.6       2 weeks   19.1      19.3      9.4.5         0      Instrument Power Supply Installation
+                                                                - Instrument transformer installation
+                                                                - Voltage regulation module
+                                                                - Uninterruptible supply circuits
+                                                                - Grounding verification
+
+9.4.7       2 weeks   19.3      19.5      9.4.6         0      Area Lighting System Installation
+                                                                - High-mast lighting poles (switchyard)
+                                                                - Area lighting fixtures
+                                                                - Interior lighting (boiler house, turbine hall)
+                                                                - Emergency lighting & signage
+
+9.4.8       2 weeks   19.5      19.7      9.4.7         0      Cable Trays & Conduit System Completion
+                                                                - Cable tray routing throughout plant
+                                                                - Conduit installation (underground & overhead)
+                                                                - Cable organization & labeling
+                                                                - Spare conduit provision for future expansion
+
+================================================================================
+PHASE 10: COMMISSIONING (UNIT-1) (6 Months: Month 28-34)
+================================================================================
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+10.1.1      2 weeks   28.1      28.3      5.1.21, 7.1.15, Cold Run Test
+                                          9.4.8         0      - All pumps rotation without fluid
+                                                                - Fan idle run (no load)
+                                                                - Mechanical system check
+                                                                - Safety system verification
+
+10.1.2      1 week    28.3      28.4      10.1.1        0      System Flushing & Cleaning
+                                                                - Condenser & cooling system flushing
+                                                                - Feedwater system flushing
+                                                                - Pipe line debris removal
+                                                                - Water chemistry verification
+
+10.1.3      1 week    28.4      28.5      10.1.2        0      Heat Run Test
+                                                                - Auxiliary boiler steam supply (or dummy load)
+                                                                - Turbine warming up (slow speed)
+                                                                - Bearing temperature monitoring
+                                                                - Thermal growth measurement
+
+10.1.4      2 weeks   28.5      28.7      10.1.3        0      Boiler Light-up & Steam Generation - Unit 1
+                                                                - Coal mill operation test
+                                                                - Burner ignition (oil burner, then coal)
+                                                                - Furnace pressure control
+                                                                - Superheater outlet temperature control
+
+10.1.5      2 weeks   28.7      28.9      10.1.4        0      Turbine Turning Gear & Low-Speed Operation
+                                                                - Turning gear engagement & rotation
+                                                                - Oil circulation system operation
+                                                                - Bearing temperature monitoring
+                                                                - Rotor positioning after shutdown
+
+10.1.6      1 week    28.9      29.0      10.1.5        0      Boiler Steam Generation at Higher Capacity
+                                                                - Steam generation increase (10% MCR)
+                                                                - Superheater outlet temperature control
+                                                                - Boiler pressure control
+                                                                - Equipment leak detection
+
+10.1.7      1 week    29.0      29.1      10.1.6        0      Turbine Acceleration & No-Load Operation
+                                                                - Turbine spinning up to 50% speed
+                                                                - Cooling water flow verification
+                                                                - Bearing condition monitoring
+                                                                - Shaft alignment check
+
+10.1.8      1 week    29.1      29.2      10.1.7        0      Turbine Ramp-up to Synchronous Speed (3000 RPM)
+                                                                - Turbine acceleration to synchronization speed
+                                                                - Speed governing system check
+                                                                - Electrical parameter monitoring
+                                                                - Voltage & frequency measurement
+
+10.1.9      1 week    29.2      29.3      10.1.8        0      Generator Synchronization with Grid - Unit 1
+                                                                - Synchronization checks (phase, frequency, voltage)
+                                                                - Circuit breaker closure on grid
+                                                                - Generator load acceptance
+                                                                - Protective relay check
+
+10.1.10     1 week    29.3      29.4      10.1.9        0      Initial Load Acceptance & Grid Connection Verification
+                                                                - Turbine generator loading at 10 MW
+                                                                - Power factor verification
+                                                                - Frequency stability check
+                                                                - Voltage regulation verification
+
+10.1.11     1 week    29.4      29.5      10.1.10       0      Auxiliary Systems Commissioning
+                                                                - Condenser circulating water system
+                                                                - Feedwater heating system
+                                                                - Air preheater & flue gas system
+                                                                - Coal handling system operation
+
+10.1.12     1 week    29.5      29.6      10.1.11       0      Control System Functional Verification
+                                                                - Boiler pressure control loops
+                                                                - Turbine speed governor system
+                                                                - Temperature control loops
+                                                                - Alarm & shutdown system activation
+
+10.1.13     1 week    29.6      29.7      10.1.12       0      Environmental Control Systems
+                                                                - ESP (Electrostatic Precipitator) operation
+                                                                - FGD (Flue Gas Desulfurization) system
+                                                                - SCR (Selective Catalytic Reduction) system
+                                                                - Emission monitoring
+
+10.1.14     2 weeks   29.7      30.0      10.1.13       0      Performance Testing - 25% MCR (Unit-1)
+                                                                - Loading to 25% MCR (165 MW)
+                                                                - System parameter measurement
+                                                                - Efficiency calculation
+                                                                - Leak detection & correction
+
+
+================================================================================
+PHASE 11: COMMISSIONING (UNIT-2) (6 Months: Month 32-38)
+================================================================================
+
+(Similar structure to Unit-1 commissioning, offset by 4 months and starting after Unit-1 reaches stable operation)
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+11.1.1      2 weeks   32.1      32.3      6.1.21, 8.1.15, Cold Run Test - Unit 2
+                                          9.4.8         0      [Same as Unit-1 but for Unit-2]
+[... continues with same structure as Unit-1 commissioning ...]
+11.1.14     2 weeks   36.7      37.0      11.1.13       0      Performance Testing - 25% MCR (Unit-2)
+
+
+================================================================================
+PHASE 12: PERFORMANCE TESTING & COD (UNIT-1) (3 Months: Month 34-37)
+================================================================================
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+12.1.1      1 week    34.1      34.2      10.1.14       0      Performance Testing Preparation - Unit 1
+                                                                - Test plan finalization
+                                                                - Data acquisition system setup
+                                                                - Test parameter definition
+                                                                - Weather condition check
+
+12.1.2      2 weeks   34.2      34.4      12.1.1        0      Loading to 50% MCR (330 MW) - Unit 1
+                                                                - Gradual load increase
+                                                                - System stability monitoring
+                                                                - Parameter data recording
+                                                                - Equipment performance observation
+
+12.1.3      3 days    34.4      34.4+    12.1.2        0      Hold at 50% MCR for Stabilization
+                                                                - Temperature & pressure stabilization
+                                                                - Thrust bearing monitoring
+                                                                - Vibration monitoring
+                                                                - System equilibrium verification
+
+12.1.4      2 weeks   34.5      34.7      12.1.3        0      Loading to 75% MCR (495 MW) - Unit 1
+                                                                - Continued load ramp
+                                                                - Performance parameter collection
+                                                                - Efficiency calculation (preliminary)
+                                                                - System stress monitoring
+
+12.1.5      3 days    34.7      34.8      12.1.4        0      Hold at 75% MCR for Data Collection
+                                                                - Extended hold at high load
+                                                                - Long-term stability check
+                                                                - Efficiency measurement
+                                                                - System reliability verification
+
+12.1.6      2 weeks   35.0      35.2      12.1.5        0      Loading to 100% MCR (660 MW) - Unit 1
+                                                                - Final load ramp to full capacity
+                                                                - All performance parameters at design
+                                                                - Efficiency at guaranteed levels
+                                                                - Environmental emissions verification
+
+12.1.7      1 week    35.2      35.3      12.1.6        0      Hold at 100% MCR - Extended Testing
+                                                                - Extended operation at full load
+                                                                - System endurance check
+                                                                - Bearing & seal performance
+                                                                - All alarm & protection system function
+
+12.1.8      1 week    35.3      35.4      12.1.7        0      Performance Guarantee Test Verification
+                                                                - Efficiency guarantee achievement
+                                                                - Emission standards compliance
+                                                                - Heat rate calculation
+                                                                - Performance certificate preparation
+
+12.1.9      2 weeks   35.4      35.6      12.1.8        0      Final Documentation & COD Preparation
+                                                                - Test results compilation
+                                                                - Performance guarantee compliance report
+                                                                - Final inspection checklist
+                                                                - COD declaration documents
+
+12.1.10     1 week    35.6      35.7      12.1.9        0      COD (Commercial Operation Date) - Unit 1
+                                                                - COD declaration by Owner
+                                                                - Commercial operation commencement
+                                                                - Performance guarantee certificate
+                                                                - Handover to Operations team
+
+
+================================================================================
+PHASE 13: PERFORMANCE TESTING & COD (UNIT-2) (3 Months: Month 38-41)
+================================================================================
+
+(Similar structure to Unit-1 Performance Testing, offset by 4 months)
+
+Activity    Duration  Start     End       Predecessor   Float  Description
+------      --------  -----     -----     -----------   -----  -----------
+
+13.1.1      1 week    38.1      38.2      11.1.14       0      Performance Testing Preparation - Unit 2
+[... continues with same structure as Unit-1 ...]
+13.1.10     1 week    40.6      40.7      13.1.9        0      COD - Unit 2
+
+
+================================================================================
+SUMMARY
+================================================================================
+
+TOTAL L2 ACTIVITIES: 195
+
+PHASE-WISE BREAKDOWN:
+- Phase 1 (Initiation): 7 activities
+- Phase 2 (Design): 62 activities
+- Phase 3 (Procurement): 67 activities
+- Phase 4 (Civil Works): 42 activities
+- Phase 5 (Boiler Erection - Unit 1): 21 activities
+- Phase 6 (Boiler Erection - Unit 2): 21 activities
+- Phase 7 (Turbine-Gen Erection - Unit 1): 15 activities
+- Phase 8 (Turbine-Gen Erection - Unit 2): 15 activities
+- Phase 9 (Electrical & Control): 37 activities
+- Phase 10 (Commissioning - Unit 1): 14 activities
+- Phase 11 (Commissioning - Unit 2): 14 activities
+- Phase 12 (Performance Testing & COD - Unit 1): 10 activities
+- Phase 13 (Performance Testing & COD - Unit 2): 10 activities
+
+CRITICAL PATH ITEMS (Zero Float):
+All activities on the critical path identified above directly impact the 44-month project schedule.
+
+PROJECT MILESTONES:
+- Month 18: Design Engineering Complete
+- Month 24: All Equipment Delivered
+- Month 28: Unit-1 Boiler & Turbine Erection Complete
+- Month 34: Unit-1 Synchronization with Grid
+- Month 37: Unit-1 COD (COMMERCIAL OPERATION DATE)
+- Month 32: Unit-2 Boiler & Turbine Erection Complete
+- Month 38: Unit-2 Synchronization with Grid
+- Month 41: Unit-2 COD (COMMERCIAL OPERATION DATE)
+
+================================================================================
+END OF L2 DETAILED SCHEDULE
+================================================================================

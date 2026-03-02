@@ -1,0 +1,751 @@
+================================================================================
+GITHUB REPOSITORY SETUP GUIDE
+Centralized Project Monitoring Dashboard
+================================================================================
+
+Repository Name: centralized-project-monitoring-dashboard
+Full Repository URL: https://github.com/YOUR-USERNAME/centralized-project-monitoring-dashboard
+
+This guide walks you through creating and setting up your GitHub repository
+with all project files properly organized.
+
+================================================================================
+STEP 1: CREATE GITHUB REPOSITORY
+================================================================================
+
+1. Go to GitHub: https://github.com/new
+2. Fill in details:
+   
+   Repository Name: centralized-project-monitoring-dashboard
+   Description: Comprehensive project tracking dashboard for 2x660 MW 
+                thermal power plant with schedules, charts, and team 
+                collaboration tools
+   Visibility: PRIVATE (recommended for team security)
+   
+3. Initialize with:
+   ☑ Add a README file (we'll replace this)
+   ☑ Add .gitignore (select Node)
+   ☑ Choose a license (MIT recommended)
+
+4. Click "Create repository"
+
+================================================================================
+STEP 2: CLONE REPOSITORY TO YOUR COMPUTER
+================================================================================
+
+Open Terminal/Command Prompt and run:
+
+$ git clone https://github.com/YOUR-USERNAME/centralized-project-monitoring-dashboard.git
+$ cd centralized-project-monitoring-dashboard
+
+Replace "YOUR-USERNAME" with your actual GitHub username.
+
+================================================================================
+STEP 3: CREATE FOLDER STRUCTURE
+================================================================================
+
+Create the following directory structure:
+
+centralized-project-monitoring-dashboard/
+├── schedules/
+├── dashboard/
+├── docs/
+└── .gitignore (auto-created)
+
+Commands to create folders:
+
+$ mkdir schedules
+$ mkdir dashboard
+$ mkdir docs
+
+================================================================================
+STEP 4: ORGANIZE FILES BY FOLDER
+================================================================================
+
+A. SCHEDULES FOLDER (schedules/)
+────────────────────────────────
+
+Copy these files into schedules/:
+
+1. L1_SCHEDULE_2x660MW_THERMAL_PLANT.txt
+   └─ Location: schedules/L1_SCHEDULE_2x660MW_THERMAL_PLANT.txt
+
+2. L2_DETAILED_SCHEDULE.txt
+   └─ Location: schedules/L2_DETAILED_SCHEDULE.txt
+
+3. L3_DETAILED_SCHEDULE.txt
+   └─ Location: schedules/L3_DETAILED_SCHEDULE.txt
+
+(Get these from outputs folder)
+
+
+B. DASHBOARD FOLDER (dashboard/)
+────────────────────────────────
+
+Copy these files into dashboard/:
+
+1. progress_dashboard.jsx
+   └─ Location: dashboard/progress_dashboard.jsx
+
+2. L1_GanttChart_Interactive.jsx
+   └─ Location: dashboard/L1_GanttChart_Interactive.jsx
+
+3. Create package.json (see below)
+   └─ Location: dashboard/package.json
+
+4. Create .env.example (see below)
+   └─ Location: dashboard/.env.example
+
+
+C. DOCS FOLDER (docs/)
+──────────────────────
+
+Copy these files into docs/:
+
+1. DASHBOARD_DEPLOYMENT_GUIDE.txt
+   └─ Location: docs/DASHBOARD_DEPLOYMENT_GUIDE.txt
+
+2. DASHBOARD_QUICK_START.txt
+   └─ Location: docs/DASHBOARD_QUICK_START.txt
+
+3. 00_START_HERE.txt
+   └─ Location: docs/00_START_HERE.txt
+
+4. COMPLETE_PROJECT_DELIVERY_SUMMARY.txt
+   └─ Location: docs/COMPLETE_PROJECT_DELIVERY_SUMMARY.txt
+
+
+D. ROOT FOLDER FILES
+─────────────────────
+
+1. README.md (we created this)
+   └─ Location: README.md (replace default)
+
+2. Create .gitignore (Node template)
+   └─ Location: .gitignore
+
+3. LICENSE (MIT)
+   └─ Location: LICENSE
+
+================================================================================
+STEP 5: CREATE SUPPORTING FILES
+================================================================================
+
+A. CREATE dashboard/package.json
+────────────────────────────────
+
+Create file: dashboard/package.json
+
+Copy this content:
+
+```json
+{
+  "name": "centralized-project-monitoring-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Centralized Project Monitoring Dashboard for 2x660 MW Thermal Power Plant",
+  "author": "Your Name",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.10.0",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.3.9",
+    "tailwindcss": "^3.3.0"
+  }
+}
+```
+
+
+B. CREATE dashboard/.env.example
+────────────────────────────────
+
+Create file: dashboard/.env.example
+
+Copy this content:
+
+```
+# Application Settings
+VITE_APP_TITLE=Centralized Project Monitoring Dashboard
+VITE_APP_SUBTITLE=2x660 MW Thermal Power Plant
+
+# Optional: Firebase Authentication (for production)
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket.appspot.com
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_firebase_sender_id
+VITE_FIREBASE_APP_ID=your_firebase_app_id
+
+# Optional: Google Sheets Integration
+VITE_GOOGLE_SHEET_ID=your_google_sheet_id
+VITE_GOOGLE_API_KEY=your_google_api_key
+
+# Optional: Slack Integration
+VITE_SLACK_WEBHOOK_URL=https://hooks.slack.com/services/YOUR/WEBHOOK/URL
+
+# Optional: Analytics
+VITE_ANALYTICS_ID=your_analytics_id
+```
+
+NOTE: Users will copy this to .env.local and fill in their own values
+
+
+C. UPDATE .gitignore
+──────────────────
+
+Add these lines to .gitignore (if not already there):
+
+```
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+/dist
+/build
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Misc
+.cache/
+.parcel-cache
+```
+
+
+D. CREATE LICENSE (MIT)
+───────────────────────
+
+Create file: LICENSE
+
+Copy this content:
+
+```
+MIT License
+
+Copyright (c) 2026 Centralized Project Monitoring Dashboard
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+================================================================================
+STEP 6: FINAL FOLDER STRUCTURE
+================================================================================
+
+Your repository should now look like this:
+
+centralized-project-monitoring-dashboard/
+│
+├── schedules/
+│   ├── L1_SCHEDULE_2x660MW_THERMAL_PLANT.txt         (5,000 lines)
+│   ├── L2_DETAILED_SCHEDULE.txt                      (4,000 lines)
+│   └── L3_DETAILED_SCHEDULE.txt                      (5,000 lines)
+│
+├── dashboard/
+│   ├── progress_dashboard.jsx                        (1,500 lines)
+│   ├── L1_GanttChart_Interactive.jsx                 (800 lines)
+│   ├── package.json                                  (dependencies)
+│   └── .env.example                                  (environment vars)
+│
+├── docs/
+│   ├── README.md                                     (this repo's main doc)
+│   ├── 00_START_HERE.txt                             (project overview)
+│   ├── DASHBOARD_DEPLOYMENT_GUIDE.txt                (setup instructions)
+│   ├── DASHBOARD_QUICK_START.txt                     (user guide)
+│   └── COMPLETE_PROJECT_DELIVERY_SUMMARY.txt         (full summary)
+│
+├── .gitignore                                        (git rules)
+├── README.md                                         (GitHub homepage)
+├── LICENSE                                           (MIT License)
+└── .git/                                             (auto-created)
+
+================================================================================
+STEP 7: ADD FILES TO GIT & COMMIT
+================================================================================
+
+Navigate to your repository folder and run these commands:
+
+1. Add all files to staging:
+   $ git add .
+
+2. Commit with message:
+   $ git commit -m "Initial commit: Centralized Project Monitoring Dashboard
+
+   - Added 3-level schedule hierarchy (L1, L2, L3)
+   - Added React dashboard with authentication
+   - Added interactive Gantt chart
+   - Added complete documentation
+   - Setup GitHub repository structure"
+
+3. Push to GitHub:
+   $ git branch -M main
+   $ git push -u origin main
+
+(If you already have a main branch, skip the first line)
+
+================================================================================
+STEP 8: VERIFY REPOSITORY ON GITHUB
+================================================================================
+
+1. Go to: https://github.com/YOUR-USERNAME/centralized-project-monitoring-dashboard
+
+2. You should see:
+   ✓ README.md displayed as homepage
+   ✓ 3 folders: schedules/, dashboard/, docs/
+   ✓ All files organized properly
+   ✓ License and .gitignore visible
+
+3. Click on different folders to verify files are there
+
+================================================================================
+STEP 9: INVITE TEAM MEMBERS
+================================================================================
+
+1. Go to Repository Settings (⚙️ icon)
+
+2. Click "Collaborators" (or "People")
+
+3. Click "Add people"
+
+4. Search for team members by username or email
+
+5. Select permissions:
+   - Pull (Read-only) - For viewing only
+   - Push (Read & Write) - For contributors
+   - Admin - For maintainers
+
+6. Send invitations
+
+Team members can now:
+✓ Clone the repository
+✓ View schedules
+✓ Access dashboard code
+✓ Review documentation
+✓ Create issues & discussions
+
+================================================================================
+STEP 10: SETUP FOR DEPLOYMENT
+================================================================================
+
+A. FOR VERCEL DEPLOYMENT
+─────────────────────────
+
+1. Create Vercel account: https://vercel.com
+
+2. Connect GitHub:
+   - Click "New Project"
+   - Select repository: centralized-project-monitoring-dashboard
+   - Import project
+
+3. Configure:
+   - Framework: Vite
+   - Root Directory: ./dashboard
+   - Build Command: npm run build
+   - Output Directory: dist
+
+4. Add environment variables:
+   - Go to Project Settings
+   - Environment Variables
+   - Add VITE_APP_TITLE, VITE_APP_SUBTITLE, etc.
+
+5. Deploy:
+   - Click "Deploy"
+   - Wait 2-5 minutes
+   - Get public URL: https://your-dashboard.vercel.app
+
+✓ Dashboard goes LIVE!
+
+
+B. FOR LOCAL DEVELOPMENT
+────────────────────────
+
+1. Clone repository:
+   $ git clone https://github.com/YOUR-USERNAME/centralized-project-monitoring-dashboard.git
+
+2. Navigate to dashboard:
+   $ cd centralized-project-monitoring-dashboard/dashboard
+
+3. Install dependencies:
+   $ npm install
+
+4. Create .env.local:
+   $ cp .env.example .env.local
+
+5. Start development server:
+   $ npm run dev
+
+6. Open in browser:
+   http://localhost:5173
+
+7. Login with demo credentials:
+   Email: team@project.com
+   Password: Project@2024
+
+✓ Dashboard running locally!
+
+================================================================================
+STEP 11: PROTECT MAIN BRANCH (OPTIONAL)
+================================================================================
+
+For team security, protect main branch:
+
+1. Go to Repository Settings
+
+2. Click "Branches"
+
+3. Click "Add rule" under Branch protection rules
+
+4. Fill in:
+   Branch name pattern: main
+
+5. Enable:
+   ☑ Require a pull request before merging
+   ☑ Require status checks to pass
+   ☑ Require branches to be up to date
+   ☑ Require approvals (select 1-2 approvers)
+
+6. Save changes
+
+Now team members must:
+- Create feature branches
+- Submit pull requests
+- Get approval before merging
+
+================================================================================
+STEP 12: CREATE GITHUB DISCUSSIONS (OPTIONAL)
+================================================================================
+
+Enable team collaboration:
+
+1. Go to Repository Settings
+
+2. Click "Features"
+
+3. Enable "Discussions"
+
+4. Create discussion categories:
+   - Announcements (Project updates)
+   - Ideas (Feature suggestions)
+   - Q&A (Questions & answers)
+   - General (General discussion)
+
+Team can now:
+- Ask questions
+- Share ideas
+- Discuss features
+- Coordinate activities
+
+================================================================================
+STEP 13: SETUP GITHUB PAGES (OPTIONAL)
+================================================================================
+
+Create a project website:
+
+1. Go to Repository Settings
+
+2. Scroll to "GitHub Pages"
+
+3. Source: Deploy from branch
+
+4. Branch: main, folder: /docs (or root)
+
+5. Save
+
+✓ Your project website is live at:
+  https://YOUR-USERNAME.github.io/centralized-project-monitoring-dashboard
+
+================================================================================
+USEFUL GIT COMMANDS FOR YOUR TEAM
+================================================================================
+
+BASIC COMMANDS:
+
+# Clone repository
+$ git clone https://github.com/USERNAME/centralized-project-monitoring-dashboard.git
+
+# Check status
+$ git status
+
+# Add files
+$ git add .
+
+# Commit changes
+$ git commit -m "Description of changes"
+
+# Push to GitHub
+$ git push
+
+# Pull latest changes
+$ git pull
+
+# Create new branch
+$ git checkout -b feature/feature-name
+
+# Switch branch
+$ git checkout main
+
+# Delete branch
+$ git branch -d feature-name
+
+
+WORKFLOW COMMANDS:
+
+# 1. Create feature branch
+$ git checkout -b feature/new-feature
+
+# 2. Make changes...
+
+# 3. Add changes
+$ git add .
+
+# 4. Commit
+$ git commit -m "Add new feature"
+
+# 5. Push branch
+$ git push -u origin feature/new-feature
+
+# 6. Create Pull Request on GitHub
+# 7. Get approval
+# 8. Merge on GitHub
+# 9. Delete branch
+$ git checkout main
+$ git pull
+$ git branch -d feature/new-feature
+
+================================================================================
+FREQUENTLY NEEDED UPDATES
+================================================================================
+
+UPDATING SCHEDULES:
+1. Edit files in schedules/ folder
+2. $ git add schedules/
+3. $ git commit -m "Update schedules - Month X"
+4. $ git push
+
+UPDATING DASHBOARD:
+1. Edit files in dashboard/ folder
+2. $ git add dashboard/
+3. $ git commit -m "Update dashboard - Feature name"
+4. $ git push
+5. Vercel auto-deploys
+
+UPDATING DOCUMENTATION:
+1. Edit files in docs/ folder
+2. $ git add docs/
+3. $ git commit -m "Update documentation"
+4. $ git push
+
+================================================================================
+TROUBLESHOOTING GITHUB
+================================================================================
+
+PROBLEM: "Permission denied (publickey)"
+SOLUTION: Setup SSH key
+$ ssh-keygen -t ed25519 -C "your-email@example.com"
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/id_ed25519
+Then add public key to GitHub Settings → SSH and GPG keys
+
+
+PROBLEM: "Merge conflict"
+SOLUTION: 
+1. Pull latest: $ git pull
+2. Fix conflicts in files
+3. $ git add .
+4. $ git commit -m "Resolve merge conflict"
+5. $ git push
+
+
+PROBLEM: "File too large"
+SOLUTION:
+GitHub has 100MB file limit. If needed:
+1. Use Git LFS (Large File Storage)
+2. Or split large files
+3. Or remove from repo (for generated files)
+
+
+PROBLEM: "Accidentally committed sensitive info"
+SOLUTION:
+$ git rm --cached .env
+$ echo ".env" >> .gitignore
+$ git commit -m "Remove .env from tracking"
+$ git push
+
+
+PROBLEM: "Need to undo last commit"
+SOLUTION:
+$ git reset --soft HEAD~1
+(Keeps changes, uncommits)
+
+
+PROBLEM: "How to sync forked repo"
+SOLUTION:
+$ git remote add upstream https://github.com/ORIGINAL-OWNER/repo.git
+$ git fetch upstream
+$ git merge upstream/main
+
+================================================================================
+GITHUB COLLABORATION BEST PRACTICES
+================================================================================
+
+DO:
+✓ Use descriptive commit messages
+✓ Create feature branches for changes
+✓ Pull before pushing
+✓ Review code before merging
+✓ Keep .gitignore updated
+✓ Document changes in README
+✓ Use issues for tracking work
+✓ Create pull requests for review
+✓ Communicate in discussions
+✓ Regular backups to external storage
+
+DON'T:
+✗ Don't commit to main directly
+✗ Don't push without pulling first
+✗ Don't store passwords/API keys in code
+✗ Don't commit large binary files
+✗ Don't merge without testing
+✗ Don't ignore merge conflicts
+✗ Don't force push (--force) unless necessary
+✗ Don't leave branches unmerged
+✗ Don't ignore security warnings
+✗ Don't work on outdated code
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+1. ✓ Create GitHub repository (Step 1)
+2. ✓ Clone to your computer (Step 2)
+3. ✓ Organize files (Steps 3-5)
+4. ✓ Create supporting files (Step 5)
+5. ✓ Commit and push (Step 7)
+6. ✓ Verify on GitHub (Step 8)
+7. ✓ Invite team members (Step 9)
+8. ✓ Deploy to Vercel (Step 10)
+9. ✓ Setup protections (Step 11)
+10. ✓ Enable discussions (Step 12)
+11. ✓ Create project website (Step 13)
+
+YOUR GITHUB REPOSITORY IS READY! 🎉
+
+Repository URL: https://github.com/YOUR-USERNAME/centralized-project-monitoring-dashboard
+
+Share this URL with your team for collaboration!
+
+================================================================================
+FINAL CHECKLIST
+================================================================================
+
+GitHub Repository Setup:
+☑ Repository created with correct name
+☑ README.md in place
+☑ .gitignore configured
+☑ LICENSE added
+☑ Folders organized (schedules/, dashboard/, docs/)
+☑ All files uploaded
+
+Dashboard Setup:
+☑ progress_dashboard.jsx in dashboard/
+☑ L1_GanttChart_Interactive.jsx in dashboard/
+☑ package.json configured
+☑ .env.example created
+
+Schedules:
+☑ L1 schedule uploaded
+☑ L2 schedule uploaded
+☑ L3 schedule uploaded
+
+Documentation:
+☑ README.md created
+☑ Deployment guide in docs/
+☑ Quick start guide in docs/
+☑ Start here guide in docs/
+
+Team Collaboration:
+☑ Team members invited
+☑ Permissions set correctly
+☑ Discussions enabled
+☑ Branch protection enabled
+
+Deployment:
+☑ Vercel account created
+☑ GitHub connected to Vercel
+☑ Project imported
+☑ Environment variables configured
+☑ Dashboard deployed & live
+☑ Public URL shared with team
+
+================================================================================
+YOU'RE ALL SET! 🚀
+================================================================================
+
+Your "Centralized Project Monitoring Dashboard" repository is now:
+
+✓ Created on GitHub
+✓ Properly organized
+✓ Documented
+✓ Deployed and live
+✓ Ready for team collaboration
+
+Share the repository URL with your team:
+https://github.com/YOUR-USERNAME/centralized-project-monitoring-dashboard
+
+And the live dashboard URL:
+https://your-dashboard.vercel.app
+
+Start logging activities and monitoring progress!
+
+For questions, see the documentation in docs/ folder.
+
+Good luck with your 2x660 MW Thermal Power Plant project! 🏭⚡
+
+================================================================================
