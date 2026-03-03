@@ -1,0 +1,24 @@
+{
+  "name": "centralized-project-monitoring-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Centralized Project Monitoring Dashboard for 2x660 MW Thermal Power Plant",
+  "author": "Viraj",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.10.0",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.3.9"
+  }
+}
